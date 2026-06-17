@@ -1,0 +1,83 @@
+name: iptime-router
+status: DEVELOPMENT
+components:
+  - id: main
+    label: ipTIME 공유기
+    description: ipTIME 공유기 상태 모니터링
+    capabilities:
+      - id: insidehonest32774.iptimeModel
+        version: 1
+      - id: insidehonest32774.internetConnection
+        version: 1
+      - id: insidehonest32774.externalIpAddress
+        version: 1
+      - id: insidehonest32774.downloadTraffic
+        version: 1
+      - id: insidehonest32774.uploadTraffic
+        version: 1
+      - id: insidehonest32774.connectedDevices
+        version: 1
+      - id: insidehonest32774.loginStatus
+        version: 1
+      - id: refresh
+        version: 1
+    categories:
+      - name: Networking
+preferences:
+  - name: routerModel
+    title: "Router Model"
+    description: "e.g., AX2004M, AX8004BCM"
+    required: false
+    preferenceType: string
+    definition:
+      stringType: text
+      default: "AX2004M"
+      minLength: 0
+      maxLength: 32
+
+  - name: routerIp
+    title: "LAN IP"
+    description: "Default: 192.168.0.1"
+    required: true
+    preferenceType: string
+    definition:
+      stringType: text
+      default: "192.168.0.1"
+      minLength: 7
+      maxLength: 15
+
+  - name: adminUser
+    title: "Admin ID"
+    description: "ipTIME Login Username"
+    required: false
+    preferenceType: string
+    definition:
+      stringType: text
+      default: "admin"
+      minLength: 1
+      maxLength: 32
+
+  - name: adminPass
+    title: "Admin PW"
+    description: "ipTIME Login Password"
+    required: false
+    preferenceType: string
+    definition:
+      stringType: text
+      default: "admin"
+      minLength: 0
+      maxLength: 64
+
+  - name: pollInterval
+    title: "Polling Period(Sec)"
+    description: "Data polling interval. Range: 10 - 600 seconds."
+    required: false
+    preferenceType: integer
+    definition:
+      default: 60
+      minimum: 10
+      maximum: 600
+
+metadata:
+  vid: 847b7693-123a-3b0d-8175-3669a80925de
+  mnmn: SmartThingsCommunity

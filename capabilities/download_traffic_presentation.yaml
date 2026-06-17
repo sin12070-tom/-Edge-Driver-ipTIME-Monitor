@@ -1,0 +1,5 @@
+detailView:
+  - label: "Download Traffic"
+    displayType: state
+    state:
+      label: "{{downloadSpeed.value}} {{downloadSpeed.unit}}"

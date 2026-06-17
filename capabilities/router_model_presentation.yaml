@@ -1,0 +1,5 @@
+detailView:
+  - label: "Router Model"
+    displayType: state
+    state:
+      label: "{{model.value}}"

@@ -1,0 +1,69 @@
+{
+  "dashboard": {
+    "states": [
+      {
+        "component": "main",
+        "capability": "insidehonest32774.downloadTraffic",
+        "version": 1
+      }
+    ],
+    "actions": []
+  },
+  "detailView": [
+    {
+      "component": "main",
+      "capability": "insidehonest32774.iptimeModel",
+      "version": 1
+    },
+    {
+      "component": "main",
+      "capability": "insidehonest32774.internetConnection",
+      "version": 1
+    },
+    {
+      "component": "main",
+      "capability": "insidehonest32774.externalIpAddress",
+      "version": 1
+    },
+    {
+      "component": "main",
+      "capability": "insidehonest32774.downloadTraffic",
+      "version": 1
+    },
+    {
+      "component": "main",
+      "capability": "insidehonest32774.uploadTraffic",
+      "version": 1
+    },
+    {
+      "component": "main",
+      "capability": "insidehonest32774.connectedDevices",
+      "version": 1
+    },
+    {
+      "component": "main",
+      "capability": "insidehonest32774.loginStatus",
+      "version": 1
+    },
+    {
+      "component": "main",
+      "capability": "refresh",
+      "version": 1
+    }
+  ],
+  "automation": {
+    "conditions": [
+      {
+        "component": "main",
+        "capability": "insidehonest32774.downloadTraffic",
+        "version": 1
+      },
+      {
+        "component": "main",
+        "capability": "insidehonest32774.uploadTraffic",
+        "version": 1
+      }
+    ],
+    "actions": []
+  }
+}

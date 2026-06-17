@@ -1,0 +1,12 @@
+id: externalIp
+name: "External IP Address"
+attributes:
+  ip:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+      additionalProperties: false
+      required:
+        - value

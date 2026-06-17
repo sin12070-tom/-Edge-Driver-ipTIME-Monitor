@@ -1,0 +1,5 @@
+detailView:
+  - label: "네트워크 속도"
+    displayType: state
+    state:
+      label: "{{traffic.value}}"

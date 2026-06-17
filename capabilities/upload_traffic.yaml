@@ -1,0 +1,18 @@
+id: uploadTraffic
+name: "Upload Traffic"
+attributes:
+  uploadSpeed:
+    schema:
+      type: object
+      properties:
+        value:
+          type: number
+          minimum: 0
+        unit:
+          type: string
+          enum:
+            - "MB/s"
+          default: "MB/s"
+      additionalProperties: false
+      required:
+        - value

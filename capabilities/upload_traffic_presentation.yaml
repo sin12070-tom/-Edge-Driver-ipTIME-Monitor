@@ -1,0 +1,5 @@
+detailView:
+  - label: "Upload Traffic"
+    displayType: state
+    state:
+      label: "{{uploadSpeed.value}} {{uploadSpeed.unit}}"

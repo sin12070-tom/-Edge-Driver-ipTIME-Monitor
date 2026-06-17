@@ -1,0 +1,5 @@
+detailView:
+  - label: "Connected Devices"
+    displayType: state
+    state:
+      label: "{{devices.value}}"

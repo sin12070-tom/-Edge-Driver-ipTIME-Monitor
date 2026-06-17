@@ -1,0 +1,5 @@
+detailView:
+  - label: "Internet Connection"
+    displayType: state
+    state:
+      label: "{{connection.value}}"

@@ -1,0 +1,13 @@
+id: iptimeTraffic
+name: "ipTIME Traffic"
+attributes:
+  traffic:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+          maxLength: 64
+      additionalProperties: false
+      required:
+        - value

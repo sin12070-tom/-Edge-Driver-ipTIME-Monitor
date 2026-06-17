@@ -1,0 +1,4727 @@
+- deviceId: e8e09942-c184-4506-bea2-b23cf41ff219
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: chromecast-audio
+  label: '[LG] webOS TV OLED65B5HNA'
+  deviceManufacturerCode: Google
+  manufacturerName: SmartThingsCommunity
+  deviceModel: OLED65B5HNA.AKRQLJD
+  presentationId: a1bec541-bb05-31c0-8bfe-7c386200ffbe
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: mediaPlayback
+          version: 1
+          optional: false
+        - id: mediaTrackControl
+          version: 1
+          optional: false
+        - id: audioTrackData
+          version: 1
+          optional: false
+        - id: audioVolume
+          version: 1
+          optional: false
+        - id: statelessSwitchLevelStep
+          version: 1
+          optional: false
+        - id: audioMute
+          version: 1
+          optional: false
+        - id: audioNotification
+          version: 1
+          optional: false
+        - id: speechSynthesis
+          version: 1
+          optional: false
+        - id: iquix.mediaPlayUri
+          version: 1
+          optional: false
+      categories:
+        - name: Speaker
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-03-15T07:26:51.405Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: a7b34979-17c9-3688-a6cd-9d7740676c3e
+  lan:
+    networkId: chromecast-0f43b5da6037ba3b22b8b2c01e0ebf62
+    driverId: 49fb23c9-0683-4c70-b0d6-429b63a73fbd
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: TYPED
+  type: LAN
+  vid: a1bec541-bb05-31c0-8bfe-7c386200ffbe
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.networkaudio
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 74
+      - 0
+      - 109
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: true
+    data:
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: only_2d
+      lastHideTime: '0.0'
+  executionContext: LOCAL
+  relationships: []
+- deviceId: f26f2752-72e3-456c-bfb9-dfded1fddb2a
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: c2c-videoDoorbell-webrtc-4
+  label: Doorbell G4
+  deviceManufacturerCode: Aqara
+  manufacturerName: SmartThings
+  deviceModel: SVD-C03/SVD-C04
+  presentationId: SmartThings-smartthings-c2c-videoDoorbell-webrtc-4
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 602dc5fc-9f05-44e9-ac27-9cbc2d1ebb30
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: refresh
+          version: 1
+          optional: false
+        - id: healthCheck
+          version: 1
+          optional: false
+        - id: button
+          version: 1
+          optional: false
+        - id: motionSensor
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: webrtc
+          version: 1
+          optional: false
+      categories:
+        - name: DoorBell
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-01-31T11:12:56.629Z'
+  profile:
+    id: da23f39b-8519-4d77-bf15-75543b384b8a
+  viper:
+    uniqueIdentifier: lumi1.54ef44761116
+    manufacturerName: Aqara
+    modelName: SVD-C03/SVD-C04
+    swVersion: 4.0.6_0046.0094
+    hwVersion: '-'
+    endpointAppId: viper_718791a0-9fae-11ee-83ea-b74d138a851d
+  type: VIPER
+  vid: SmartThings-smartthings-c2c-videoDoorbell-webrtc-4
+  mnmn: SmartThings
+  ocfDeviceType: x.com.st.d.doorbell
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 101
+      - 0
+      - 244
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: true
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: CLOUD
+  relationships: []
+- deviceId: 9f8fa431-063b-4854-a9d8-5dbab1077ee3
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: edge-bridge-monitor
+  label: EdgeBridge Agent
+  deviceManufacturerCode: AndroidEdgeBridge
+  manufacturerName: SmartThingsCommunity
+  deviceModel: EdgeBridgeAgent
+  presentationId: b0d2838d-3501-3bd6-ac9c-e434799facec
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 31e9c5a2-56ac-445b-afb8-8b56cb101c35
+  components:
+    - id: main
+      label: EdgeBridge
+      capabilities:
+        - id: booung.serverAddress
+          version: 1
+          optional: false
+        - id: aeb.edgeBridgeStatus
+          version: 1
+          optional: false
+        - id: aeb.skill
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+        - id: healthCheck
+          version: 1
+          optional: false
+      categories:
+        - name: Networking
+          categoryType: manufacturer
+      optional: false
+    - id: agent
+      label: AI Agent
+      capabilities:
+        - id: aeb.llmBot
+          version: 1
+          optional: false
+      categories:
+        - name: Other
+          categoryType: manufacturer
+      optional: false
+    - id: http
+      label: HTTP
+      capabilities:
+        - id: aeb.httpRequest
+          version: 1
+          optional: false
+      categories:
+        - name: Other
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-06-08T02:13:43.882Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: bb135f86-aa1b-39fe-b233-d5cf96ac02a4
+  lan:
+    networkId: edge-bridge-monitor:1
+    driverId: 85a7a6fc-88bc-4a9a-9fc5-175a5392b9a0
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: TYPED
+  type: LAN
+  vid: b0d2838d-3501-3bd6-ac9c-e434799facec
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.networking
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 0
+      - 0
+      - 0
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: false
+    data:
+      lastHideTime: '0.0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 5399c8c4-be93-427e-9c8c-07e9bcc20f3c
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: EnerZipper Home
+  label: EnerZipperHome
+  deviceManufacturerCode: ntek system
+  manufacturerName: 0A5n
+  presentationId: STES-1-EnerZipperHome-UP-V005
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 93e4a00b-0387-4df3-9389-12de6009373e
+  productId: 3dbc688a-534f-4fe5-85d6-d201bd836358
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: healthCheck
+          version: 1
+          optional: false
+        - id: powerMeter
+          version: 1
+          optional: false
+        - id: powerConsumptionReport
+          version: 1
+          optional: false
+        - id: energyMeter
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+      categories:
+        - name: CurbPowerMeter
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-02-28T13:01:21.162Z'
+  profile:
+    id: dcff4424-b267-4cbd-a6b6-5aa10f3cdbc2
+  mqtt:
+    executingLocally: false
+    transferCandidate: false
+  type: MQTT
+  vid: STES-1-EnerZipperHome-UP-V005
+  mnmn: 0A5n
+  ocfDeviceType: x.com.st.d.energymeter
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 0
+      - 0
+      - 0
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: false
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: CLOUD
+  relationships: []
+- deviceId: 84b42e4b-8dff-4c1b-be8b-4a729a3c858a
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: chromecast-audio
+  label: Home Mini
+  deviceManufacturerCode: Google
+  manufacturerName: SmartThingsCommunity
+  deviceModel: Google Home Mini
+  presentationId: a1bec541-bb05-31c0-8bfe-7c386200ffbe
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 2ff79b36-1911-481a-9b2e-8b90818acaa9
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: mediaPlayback
+          version: 1
+          optional: false
+        - id: mediaTrackControl
+          version: 1
+          optional: false
+        - id: audioTrackData
+          version: 1
+          optional: false
+        - id: audioVolume
+          version: 1
+          optional: false
+        - id: statelessSwitchLevelStep
+          version: 1
+          optional: false
+        - id: audioMute
+          version: 1
+          optional: false
+        - id: audioNotification
+          version: 1
+          optional: false
+        - id: speechSynthesis
+          version: 1
+          optional: false
+        - id: iquix.mediaPlayUri
+          version: 1
+          optional: false
+      categories:
+        - name: Speaker
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-03-12T04:04:39.368Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: a7b34979-17c9-3688-a6cd-9d7740676c3e
+  lan:
+    networkId: chromecast-a38e8b9992cc6a71eb420db3e0e2ab44
+    driverId: 49fb23c9-0683-4c70-b0d6-429b63a73fbd
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: TYPED
+  type: LAN
+  vid: a1bec541-bb05-31c0-8bfe-7c386200ffbe
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.networkaudio
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 94
+      - 0
+      - 45
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: true
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: c9f971c4-ed3f-4a61-b7f1-8d9e8a76eef9
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: iPhone
+  label: iPhone
+  manufacturerName: SmartThings
+  presentationId: SmartThings-smartthings-Mobile_Presence
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: presenceSensor
+          version: 1
+          optional: false
+      categories:
+        - name: MobilePresence
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-03-11T02:27:19.457Z'
+  parentDeviceId: fb6c34e2-0548-4f68-8cfa-e0cc92221d5c
+  profile:
+    id: 1b6b60d0-475f-3d7a-89a4-ad16a0809702
+  type: MOBILE
+  vid: SmartThings-smartthings-Mobile_Presence
+  mnmn: SmartThings
+  ocfDeviceType: x.com.st.d.mobile.presence
+  restrictionTier: 0
+  allowed: []
+  executionContext: CLOUD
+  relationships: []
+- deviceId: 1bce6d01-2b41-484b-832f-4115cfff8584
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: iptime-router
+  label: ipTIME Monitor
+  deviceManufacturerCode: Custom
+  manufacturerName: SmartThingsCommunity
+  deviceModel: ipTIME-Monitor
+  presentationId: adae7b98-613f-31ea-8709-9c491a8653f0
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  components:
+    - id: main
+      label: ipTIME 공유기
+      capabilities:
+        - id: insidehonest32774.iptimeModel
+          version: 1
+          optional: false
+        - id: insidehonest32774.downloadTraffic
+          version: 1
+          optional: false
+        - id: insidehonest32774.uploadTraffic
+          version: 1
+          optional: false
+        - id: insidehonest32774.connectedDevices
+          version: 1
+          optional: false
+        - id: insidehonest32774.loginStatus
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: Networking
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-06-17T13:45:32.888Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 43c1e02a-1c4a-3483-ad2a-a5fba0145627
+  lan:
+    networkId: iptime_monitor_singleton
+    driverId: ea7b6897-9735-4542-96e0-9b9477815423
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: TYPED
+  type: LAN
+  vid: adae7b98-613f-31ea-8709-9c491a8653f0
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.networking
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 101
+      - 40
+      - 197
+    rotation:
+      - 0
+      - 90
+      - 0
+    visible: true
+    data:
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: only_2d
+      lastHideTime: '0.0'
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 45c7cbd1-3889-41fe-a1b0-020595a766bc
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: switch-level
+  label: LED 스탠드
+  deviceManufacturerCode: eWeLight
+  manufacturerName: SmartThingsCommunity
+  deviceModel: ZB-DL01
+  presentationId: b4a6476b-5161-3023-8176-0dea408d1958
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 31e9c5a2-56ac-445b-afb8-8b56cb101c35
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: switchLevel
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: Switch
+          categoryType: manufacturer
+        - name: Switch
+          categoryType: user
+      optional: false
+      icon: oneui/custom_light_outdoor_bollard
+  createTime: '2026-02-14T14:50:34.275Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 8b2beca0-335f-373f-88bd-538f98f00a5d
+  zigbee:
+    eui: A4C138FC851102A4
+    networkId: AF40
+    driverId: f2e891c6-00cc-446c-9192-8ebda63d9898
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_GENERIC
+    fingerprintId: genericDimmer
+  type: ZIGBEE
+  vid: b4a6476b-5161-3023-8176-0dea408d1958
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.switch
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 26
+      - 0
+      - 224
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: true
+    data:
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: only_2d
+      lastHideTime: '0.0'
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 0310560b-6037-4ce3-bb75-629260ceb367
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: lg-thinq-bridge-v2
+  label: LG ThinQ Bridge
+  deviceManufacturerCode: LG
+  manufacturerName: SmartThingsCommunity
+  deviceModel: ThinQ
+  presentationId: 46d39b15-8faf-3ff9-b698-2346b86dda1a
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 31e9c5a2-56ac-445b-afb8-8b56cb101c35
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: refresh
+          version: 1
+          optional: false
+        - id: pizzatravel39897.aebAddressStatus
+          version: 1
+          optional: false
+      categories:
+        - name: Hub
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-06-07T14:16:58.816Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 43bbeb6f-9a06-3e2b-9f00-89b47862b9e0
+  lan:
+    networkId: lgthinq-bridge:1
+    driverId: c9a599db-d5ec-4e74-8a9d-8ee31b13ac40
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: TYPED
+  type: LAN
+  vid: 46d39b15-8faf-3ff9-b698-2346b86dda1a
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.networkingsmartwatch
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 0
+      - 0
+      - 0
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: false
+    data:
+      lastHideTime: '0.0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: a793a303-debe-41f8-8b10-a93588aa0528
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: lgtv.v2d
+  label: LG TV OLED65B5HNA
+  deviceManufacturerCode: LG
+  manufacturerName: SmartThingsCommunity
+  deviceModel: OLED65B5HNA
+  presentationId: 9f26e1fc-b824-39e0-a88e-b9d3bf5152c0
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: audioVolume
+          version: 1
+          optional: false
+        - id: audioMute
+          version: 1
+          optional: false
+        - id: partyvoice23922.lgvolumeup
+          version: 1
+          optional: false
+        - id: partyvoice23922.lgvolumedown
+          version: 1
+          optional: false
+        - id: partyvoice23922.lgmediainputsource
+          version: 1
+          optional: false
+        - id: partyvoice23922.lgcurrentapp
+          version: 1
+          optional: false
+        - id: mediaPresets
+          version: 1
+          optional: false
+        - id: partyvoice23922.lgcurrentchannel
+          version: 1
+          optional: false
+        - id: partyvoice23922.lgchannelnumber
+          version: 1
+          optional: false
+        - id: tvChannel
+          version: 1
+          optional: false
+        - id: partyvoice23922.lgmessage
+          version: 1
+          optional: false
+        - id: partyvoice23922.status
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: Television
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-05-18T11:16:46.105Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 696ef15e-c911-3821-859e-4604f47ffd00
+  lan:
+    networkId: 34bee142-1664-6506-1e97-54c4e92ade40
+    driverId: 946d1353-d902-4aed-99a9-f581c77600c6
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: TYPED
+  type: LAN
+  vid: 9f26e1fc-b824-39e0-a88e-b9d3bf5152c0
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.tv
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 74
+      - 0
+      - 89
+    rotation:
+      - 0
+      - 90
+      - 0
+    visible: true
+    data:
+      lastHideTime: '0.0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: both_2d_3d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: cd7e3cec-6da5-4d69-9490-9a927d81aa2f
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: chromecast-audio
+  label: Next Mini
+  deviceManufacturerCode: Google
+  manufacturerName: SmartThingsCommunity
+  deviceModel: Google Nest Mini
+  presentationId: a1bec541-bb05-31c0-8bfe-7c386200ffbe
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: mediaPlayback
+          version: 1
+          optional: false
+        - id: mediaTrackControl
+          version: 1
+          optional: false
+        - id: audioTrackData
+          version: 1
+          optional: false
+        - id: audioVolume
+          version: 1
+          optional: false
+        - id: statelessSwitchLevelStep
+          version: 1
+          optional: false
+        - id: audioMute
+          version: 1
+          optional: false
+        - id: audioNotification
+          version: 1
+          optional: false
+        - id: speechSynthesis
+          version: 1
+          optional: false
+        - id: iquix.mediaPlayUri
+          version: 1
+          optional: false
+      categories:
+        - name: Speaker
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-03-14T15:11:21.373Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: a7b34979-17c9-3688-a6cd-9d7740676c3e
+  lan:
+    networkId: chromecast-d8f4c22370577f93386a14697bfb430d
+    driverId: 49fb23c9-0683-4c70-b0d6-429b63a73fbd
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: TYPED
+  type: LAN
+  vid: a1bec541-bb05-31c0-8bfe-7c386200ffbe
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.networkaudio
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 10
+      - 0
+      - 102
+    rotation:
+      - 0
+      - 90
+      - 0
+    visible: true
+    data:
+      lastHideTime: '0.0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: SmartThings Station
+  label: SmartThings Station
+  deviceManufacturerCode: SAMSUNG
+  manufacturerName: SmartThingsCommunity
+  deviceModel: SAMSUNG_WIRELESS_CHARGER_HUB
+  presentationId: 65118a4f-bd52-38ea-b631-606f63396c7c
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: bridge
+          version: 1
+          optional: false
+      categories:
+        - name: Hub
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-01-31T08:36:11.877Z'
+  childDevices:
+    - id: 02e9ec46-2e3e-43e4-a11c-b4b7eca9c1cd
+    - id: 0310560b-6037-4ce3-bb75-629260ceb367
+    - id: 053ae4b0-2e48-4e35-908f-70dae78488ea
+    - id: 0c0c6a3d-9d8e-456b-bea0-118919748928
+    - id: 0d77c3ae-9e88-431f-ab34-6818ac19b7af
+    - id: 0e19ad61-f63d-4ac1-a5be-024940374cc7
+    - id: 13b71f3f-4e03-42ba-b5d9-abe5d2f8973b
+    - id: 171ff511-3f37-46e9-858f-a0e1ff4c9811
+    - id: 18402e08-a0fe-47dd-9ca8-e34667ef9548
+    - id: 1961e5e0-8f2e-4b67-81bd-5173951723dc
+    - id: 1bce6d01-2b41-484b-832f-4115cfff8584
+    - id: 1e21d8e6-63f3-4a68-bd5f-36123feb62af
+    - id: 2352ae3d-0e9c-4fd7-ab3a-02a89885cb10
+    - id: 272dde96-092d-43e4-a267-65cc8be3a1fb
+    - id: 294dcce1-07f1-4cf5-83b4-41af1f50bd9b
+    - id: 2d1129d8-8c21-49fc-92aa-944ff6954b40
+    - id: 31254fd0-6d41-4de0-8465-5ec69153b6d0
+    - id: 36c31f42-1b79-4010-bb67-764ff47653a1
+    - id: 3e366c77-cad8-4cd8-a5c8-0c65db98fbb6
+    - id: 43894fc6-d1a6-49f4-bfac-bae2f218595c
+    - id: 45c7cbd1-3889-41fe-a1b0-020595a766bc
+    - id: 586e0ccc-3fe2-4424-bdae-beee5665d69b
+    - id: 5ae12713-09f8-49b3-96aa-acaf83f2ef1e
+    - id: 5df234bb-b1f5-4029-ba60-070b69d5c9ac
+    - id: 6768eee3-2368-4bd3-b4de-74c467977d1c
+    - id: 71a7143e-666d-482d-9d70-7348966d7e4e
+    - id: 793fff3b-b28e-4ade-9191-63b934d4e296
+    - id: 79f33971-1ceb-4332-9274-e345576864d2
+    - id: 7b98c5ae-5f00-481c-a297-11b10d2d3280
+    - id: 7f632af7-e127-452d-a733-6566d46f6a90
+    - id: 831ea08c-bb83-4b78-be64-da4fe10ab835
+    - id: 84b42e4b-8dff-4c1b-be8b-4a729a3c858a
+    - id: 8a64ab4c-f979-4239-b8d9-9079d1e89a46
+    - id: 8bd5276b-8427-4f15-8124-8a5a5f747a3d
+    - id: 9633ada3-824d-4d17-bbd9-bf7d599fa079
+    - id: 9d565ec4-4e3b-48ef-9ac1-1ff686ffe332
+    - id: 9f8fa431-063b-4854-a9d8-5dbab1077ee3
+    - id: a5c0a69f-91cb-4398-a46a-0d9f482da672
+    - id: a793a303-debe-41f8-8b10-a93588aa0528
+    - id: accdf0a0-3f7a-4c2e-9351-90de21728ccb
+    - id: b703de67-5e5e-4040-b8f6-0b66b26913b6
+    - id: cd7e3cec-6da5-4d69-9490-9a927d81aa2f
+    - id: d0aee529-a80b-42e1-afdb-f9df7caeebaf
+    - id: dd8e082c-a64b-484b-addb-3b714fa9c376
+    - id: e0bcbf25-059a-48c0-bf95-a88e9ed23c0c
+    - id: e2e16b44-3c59-4645-b2fd-ecb440e5c2b3
+    - id: e64c892f-b4ee-4119-9c87-f1750892786f
+    - id: e8e09942-c184-4506-bea2-b23cf41ff219
+    - id: e9b593d2-e4e0-40d4-b74e-46d2d3e736e4
+    - id: eb428f23-b72c-42f1-8aad-db0232350940
+  profile:
+    id: 64fd3327-ca57-3ae8-a66b-a10313824c15
+  hub:
+    hubEui: D052A8014A96000D
+    firmwareVersion: 000.060.00013
+    hubDrivers:
+      - driverVersion: '2025-12-21T09:57:46.519255473'
+        driverId: 00425c55-0932-416f-a1ba-78fae98ab614
+        channelId: c8bb99e1-04a3-426b-9d94-2d260134d624
+      - driverVersion: '2025-07-28T20:45:03.83690244'
+        driverId: 01976eca-e7ff-4d1b-91db-9c980ce668d7
+        channelId: 15ea8adc-8be7-4ea6-8b51-4155f56dc6cf
+      - driverVersion: '2026-04-01T17:21:47.653980792'
+        driverId: 0b6f220f-09e7-4e73-85f9-9d6844b61c03
+        channelId: 15ea8adc-8be7-4ea6-8b51-4155f56dc6cf
+      - driverVersion: '2025-07-14T18:50:31.774045142'
+        driverId: 166c1c25-fc5c-4849-8ef9-6e127e72e453
+        channelId: 15ea8adc-8be7-4ea6-8b51-4155f56dc6cf
+      - driverVersion: '2026-02-22T18:06:24.600246821'
+        driverId: 3aa0ccf2-8ed9-48c1-8ec3-e6a28db0aae4
+        channelId: c8bb99e1-04a3-426b-9d94-2d260134d624
+      - driverVersion: '2026-02-23T19:23:15.380515276'
+        driverId: 3c406551-6b3e-456c-9971-194880f4d883
+        channelId: 15ea8adc-8be7-4ea6-8b51-4155f56dc6cf
+      - driverVersion: '2026-06-05T01:42:04.842100075'
+        driverId: 46344232-6841-42c1-badd-92400c17c2da
+        channelId: 814c3006-be91-49fd-8c9a-94169bcd72df
+      - driverVersion: '2026-05-19T13:44:48.264828136'
+        driverId: 49fb23c9-0683-4c70-b0d6-429b63a73fbd
+        channelId: 4c1b2a74-f52f-4f5e-bf7b-462d0cdf63e3
+      - driverVersion: '2024-10-10T18:17:35.032104982'
+        driverId: 4eb5b19a-7bbc-452f-859b-c6d7d857b2da
+        channelId: 15ea8adc-8be7-4ea6-8b51-4155f56dc6cf
+      - driverVersion: '2024-12-17T18:00:47.743217473'
+        driverId: 572a2641-2af8-47e4-bfe5-ad83748fd7a1
+        channelId: 15ea8adc-8be7-4ea6-8b51-4155f56dc6cf
+      - driverVersion: '2023-09-09T19:47:31.992060623'
+        driverId: 606efcfe-9ad2-4dd5-9f33-554da3fd5fca
+        channelId: e6e29aeb-2793-4ebf-b8f6-e37b69e32c61
+      - driverVersion: '2025-11-02T11:23:07.827630705'
+        driverId: 62bd9121-0ed3-4724-838f-cfa8a4d5a9a5
+        channelId: 699fefe6-7b99-40b2-acfd-662ed510a84d
+      - driverVersion: '2026-05-30T01:53:41.225070458'
+        driverId: 647dfa4d-fb6e-481d-87f7-9563a363bfcd
+        channelId: ce25bb8c-893a-49f4-812e-934b1d3be6f7
+      - driverVersion: '2026-06-03T18:40:55.638601514'
+        driverId: 7103039b-68d6-442c-afe5-e1bc955924a9
+        channelId: 15ea8adc-8be7-4ea6-8b51-4155f56dc6cf
+      - driverVersion: '2025-02-03T22:38:47.582952919'
+        driverId: 7beb8bc2-8dfa-45c2-8fdb-7373d4597b12
+        channelId: 15ea8adc-8be7-4ea6-8b51-4155f56dc6cf
+      - driverVersion: '2026-04-06T07:33:01.875358424'
+        driverId: 7f278640-ea89-466e-8b86-2be4e876eea2
+        channelId: df22a774-b90d-4b36-b57f-a78348a3695c
+      - driverVersion: '2026-05-19T14:22:08.655964162'
+        driverId: 85a7a6fc-88bc-4a9a-9fc5-175a5392b9a0
+        channelId: 9be676ba-5dfc-45e1-830c-834cb4f32b7e
+      - driverVersion: '2024-10-21T19:06:49.949052991'
+        driverId: 9050ac53-358c-47a1-a927-9a70f5f28cee
+        channelId: 15ea8adc-8be7-4ea6-8b51-4155f56dc6cf
+      - driverVersion: '2023-12-03T00:21:24.639026562'
+        driverId: 946d1353-d902-4aed-99a9-f581c77600c6
+        channelId: 42512f35-e905-416d-8696-479587f23fe2
+      - driverVersion: '2026-06-11T07:08:32.72912726'
+        driverId: 95a854a8-b110-4cdb-bb9e-82486235c642
+        channelId: d3467971-8926-404e-aa54-55cf49a023f5
+      - driverVersion: '2025-12-18T16:46:29.761614002'
+        driverId: bc53adfe-d18f-4ea4-9610-6aade6696b7a
+        channelId: c8bb99e1-04a3-426b-9d94-2d260134d624
+      - driverVersion: '2026-04-29T16:39:22.903369246'
+        driverId: c21a6c77-872c-474e-be5b-5f6f11a240ef
+        channelId: 15ea8adc-8be7-4ea6-8b51-4155f56dc6cf
+      - driverVersion: '2024-01-30T21:36:15.547412569'
+        driverId: c856a3fd-69ee-4478-a224-d7279b6d978f
+        channelId: 15ea8adc-8be7-4ea6-8b51-4155f56dc6cf
+      - driverVersion: '2026-06-17T13:18:53.271083812'
+        driverId: c9a599db-d5ec-4e74-8a9d-8ee31b13ac40
+        channelId: f7333b3d-f71d-4bc5-8a3f-d8f8a43aa83d
+      - driverVersion: '2026-01-26T23:44:30.725006043'
+        driverId: cd898d81-6c27-4d27-a529-dfadc8caae5a
+        channelId: 15ea8adc-8be7-4ea6-8b51-4155f56dc6cf
+      - driverVersion: '2025-03-10T21:36:12.512604403'
+        driverId: d9c3f8b8-c3c3-4b77-9ddd-01d08102c84b
+        channelId: 15ea8adc-8be7-4ea6-8b51-4155f56dc6cf
+      - driverVersion: '2024-10-10T18:17:54.195543653'
+        driverId: dbe192cb-f6a1-4369-a843-d1c42e5c91ba
+        channelId: 15ea8adc-8be7-4ea6-8b51-4155f56dc6cf
+      - driverVersion: '2026-05-29T03:03:47.0200225'
+        driverId: e6f9600f-9522-4397-94d3-a943e16d05fd
+        channelId: f7333b3d-f71d-4bc5-8a3f-d8f8a43aa83d
+      - driverVersion: '2026-06-17T13:58:33.853678275'
+        driverId: ea7b6897-9735-4542-96e0-9b9477815423
+        channelId: d8df224d-85ba-4a1c-8124-e1546f5a9406
+      - driverVersion: '2026-06-03T18:40:58.382510374'
+        driverId: f2e891c6-00cc-446c-9192-8ebda63d9898
+        channelId: 15ea8adc-8be7-4ea6-8b51-4155f56dc6cf
+    hubData:
+      serialNumber: f1b05912-48b2-455b-9d49-1f0febdaefce
+      zwaveStaticDsk: 00000-00000-00000-00000-00000-00000-00000-00000
+      zwaveS2: false
+      hardwareType: SAMSUNG_WIRELESS_CHARGER_HUB
+      hardwareId: '0046'
+      zigbeeFirmware: 6.2.10
+      zigbee3: true
+      zigbeeOta: ENABLED
+      otaEnable: 'true'
+      zigbeeUnsecureRejoin: false
+      zigbeeRequiresExternalHardware: false
+      threadRequiresExternalHardware: false
+      failoverAvailability: Available
+      primarySupportAvailability: Available
+      secondarySupportAvailability: Available
+      zigbeeAvailability: Available
+      zwaveAvailability: Unsupported
+      threadAvailability: Available
+      lanAvailability: Available
+      matterAvailability: Available
+      localVirtualDeviceAvailability: Available
+      childDeviceAvailability: Unsupported
+      edgeDriversAvailability: Available
+      hubReplaceAvailability: Available
+      hubLocalApiAvailability: Available
+      edgeDriverSupportedEndpointApps:
+        apps:
+          - appName: viper_12edd070-1b34-11f0-b145-1b5424e72149
+            version: '1'
+      zigbeeManualFirmwareUpdateSupported: true
+      matterRendezvousHedgeSupported: true
+      matterSoftwareComponentVersion: 1.5-0
+      matterDeviceDiagnosticsAvailability: Available
+      zigbeeDeviceDiagnosticsAvailability: Available
+      hedgeTlsCertificate: |
+        -----BEGIN CERTIFICATE-----
+        MIIGWTCCBEGgAwIBAgIBADANBgkqhkiG9w0BAQsFADCBqTELMAkGA1UEBhMCVVMx
+        CzAJBgNVBAgMAk1OMRQwEgYDVQQHDAtNaW5uZWFwb2xpczEUMBIGA1UECgwLU21h
+        cnRUaGluZ3MxODA2BgNVBAMML2hsYS10Y3AuYjZlMDgyZmEtNGJmNi00MjBkLWJh
+        Y2UtODI0OTY1MDQzZmY5LnN0MScwJQYJKoZIhvcNAQkBFhhzZWN1cml0eUBzbWFy
+        dHRoaW5ncy5jb20wIBcNMjYwNjE3MDQ1MTEwWhgPMjA1MzExMDIwNDUxMTBaMIGp
+        MQswCQYDVQQGEwJVUzELMAkGA1UECAwCTU4xFDASBgNVBAcMC01pbm5lYXBvbGlz
+        MRQwEgYDVQQKDAtTbWFydFRoaW5nczE4MDYGA1UEAwwvaGxhLXRjcC5iNmUwODJm
+        YS00YmY2LTQyMGQtYmFjZS04MjQ5NjUwNDNmZjkuc3QxJzAlBgkqhkiG9w0BCQEW
+        GHNlY3VyaXR5QHNtYXJ0dGhpbmdzLmNvbTCCAiIwDQYJKoZIhvcNAQEBBQADggIP
+        ADCCAgoCggIBANL8lEPWLwTMQ5BhtN1foVp+fLsMnIfK1MAdNK9ekefqxQXY47Wz
+        0lIHxy2E4evEBeCiOQXixs+InL56XFDlHCiKn9wZprkCv6GuNwEtFLjN8I+g4vww
+        x7zm47w0P0X0qoUL24gYD42NSOYKnbOwczmll+BpzKGJjePvtV2PDI8ExJVkLuCO
+        gyIe2aFzcVHxc8gtZAQ3hGpIMEOU0b9yDi65EGWWpEkMZDQqrsFuw0OiBI+OPrF3
+        vWKpyVZR9YzlGPlm09JRO6gAc+pAjxgH/txFXxsqJ8AmILyPryqeSpNGFCh+no2N
+        VrawDIUqEVMV8O96My35R8Rry7yx15Rqrai9Idv5x5aJYBg7kU8AOhhVDo88jBCj
+        PexplaJFgYI78sv+he+gUazq5Gb9qfria2tHP3FQfFzAG9FyVuCgFmeu+xi3aIQ8
+        FK3UlqRMbTToq2izTJfAysbJsRJ/C503zgrwiGmWaZ+dppGbVfpUt9Bl73gfQWRN
+        p7o3W1juxjADNURxRlwp3SGLnqsp7okAiudmYA7f1raF2fYWhN+ggpAmwHyXAQqA
+        7GLKQWdO9nLLRhu5xhaU0zIm7Ez/b7Jf5Vvy48aRDIxEeG/Z1hj6nD2xXyLgchw/
+        bmqIvjmvgmVMoOb1Z5vhf8te/Pv4BOWwQf0pxW9CGzYSyfm5xtnnYvbXAgMBAAGj
+        gYcwgYQwHQYDVR0OBBYEFCfqUQgsIUX7+zLHJ/WQLy4ExpPqMAkGA1UdEwQCMAAw
+        CwYDVR0PBAQDAgWgMEsGA1UdEQREMEKCQHN2Yy1obGEtdGNwLmh1Yi1iNmUwODJm
+        YS00YmY2LTQyMGQtYmFjZS04MjQ5NjUwNDNmZjkuc21hcnR0aGluZ3MwDQYJKoZI
+        hvcNAQELBQADggIBAMKTYZ4KERmJStLdAb7tGpXC0MxrR4zc2M+HAOgbQRIymCMm
+        WBRafcjqd8AnjLwEIcra1YIWEjmAs95/0Hp0RCDlO1ZOgY5nq6+KdCVKupSsFhSd
+        skB2oasAB+GSdb4S5QZyh+efvl7qKq1DvrfKoAcIX8eUNt4DvLViqA1z969jlsT9
+        PfQl/RGJILfDSBYVhMuU7CIx18BvdJVwfUGUYAvafdkt6AEH+Hweah/Q4mw5RGPW
+        X1KGNS1hC8icPWpfdHR3x0hCx2OS3p3jXJthxNcFYlG0/FZ6guAHb+rKvemEaDl0
+        wJ5yM/HHPvR4SKCSO+PEi7smQ1gFCWjJRETdAsxEYb3rAWKsb84PDPfQ+6MtIV3z
+        /4RjJP8eCE/jcXGiSMz5kgVtqrgMtwxddeYPbgWv21Tf0DyCB3UeJmjODS7mydpO
+        UFeSX9M7jtTDXteUmj+eBK0hFo5WlNtfAYz0H/WAPD07Pyl6U34lSGdKar04ZScW
+        fKzsTsHi4am9arxNNm9gMiRvz2UjEIbcGVEMq1XMBGy2v0XcU51reCKeU+P33wAa
+        hT/ESy1lUr4vyBBwRMc2Lcq/EXrgq73inQEwuEQDNYHBMh6CdI9bDKL06I0qsid6
+        8va4S4F/72JbTxGwLwfCxJmrTy8lN59pwXdt/Ef6/KK5kq0lyBBQopUjg727
+        -----END CERTIFICATE-----
+      zigbeeChannel: '13'
+      zigbeePanId: D655
+      zigbeeEui: 287681FFFEF2D59C
+      zigbeeNodeID: '0000'
+      zwaveNodeID: '00'
+      zwaveHomeID: '00000000'
+      zwaveSucID: '00'
+      zwaveVersion: '0000'
+      zwaveRegion: '0'
+      macAddress: 2C:BA:BA:94:4A:1D
+      localIP: 192.168.0.39
+      wifiSsid: I'm Here 5G
+      zigbeeRadioFunctional: true
+      zwaveRadioFunctional: false
+      zigbeeRadioEnabled: true
+      zwaveRadioEnabled: false
+      zigbeeRadioDetected: true
+      zwaveRadioDetected: false
+      enrollmentChannel: PUBLIC
+  type: HUB
+  vid: 65118a4f-bd52-38ea-b631-606f63396c7c
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.hub
+  restrictionTier: 0
+  allowed: []
+  executionContext: CLOUD
+  relationships: []
+- deviceId: 272dde96-092d-43e4-a267-65cc8be3a1fb
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: Wireless-Charging-Hub
+  label: SmartThings Station
+  manufacturerName: Samsung Electronics
+  deviceModel: EP-P9500TBEGKR
+  presentationId: IM-CHARGER-HUB-000
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  brandId: 66588569-bac9-4989-b2c6-7555afa866b6
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: samsungim.samsungaccount
+          version: 1
+          optional: false
+        - id: samsungim.chargingStatus
+          version: 1
+          optional: false
+        - id: button
+          version: 1
+          optional: false
+        - id: samsungim.wifi
+          version: 1
+          optional: false
+        - id: logTrigger
+          version: 1
+          optional: false
+        - id: samsungim.ringMobile
+          version: 1
+          optional: false
+        - id: samsungim.requestInvitation
+          version: 1
+          optional: false
+        - id: sec.diagnosticsInformation
+          version: 1
+          optional: false
+        - id: samsungim.selfTest
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: samsungim.chargerFirmware
+          version: 1
+          optional: false
+        - id: custom.userNotification
+          version: 1
+          optional: false
+        - id: samsungim.firmwareServer
+          version: 1
+          optional: false
+        - id: samsungim.devicestatus
+          version: 1
+          optional: false
+        - id: samsungim.ledNotification
+          version: 1
+          optional: false
+        - id: samsungim.firmwareAutoUpdate
+          version: 1
+          optional: false
+        - id: sec.wifiConfiguration
+          version: 1
+          optional: false
+      categories:
+        - name: Charger
+          categoryType: manufacturer
+      optional: false
+    - id: smartthings-hub
+      label: smartthings-hub
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: samsungim.hubOnboarding
+          version: 1
+          optional: false
+        - id: samsungim.sthubeui
+          version: 1
+          optional: false
+      categories:
+        - name: Other
+          categoryType: manufacturer
+      optional: false
+    - id: smartthings-findNode
+      label: SmartThings Find Node
+      capabilities:
+        - id: samsungim.findNode
+          version: 1
+          optional: false
+        - id: samsungim.findNodeGeolocation
+          version: 1
+          optional: false
+        - id: samsungim.nearbyDetection
+          version: 1
+          optional: false
+      categories:
+        - name: Other
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-01-31T08:36:02.642Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 0c26a871-ab9d-31b4-8a4f-c51a58ce1383
+  mqtt:
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    executingLocally: true
+    transferCandidate: true
+  type: MQTT
+  vid: IM-CHARGER-HUB-000
+  mnmn: Samsung Electronics
+  ocfDeviceType: x.com.st.d.charger
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 74
+      - 0
+      - 69
+    rotation:
+      - 0
+      - 90
+      - 0
+    visible: true
+    data:
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: only_2d
+      lastHideTime: '0.0'
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 13b71f3f-4e03-42ba-b5d9-abe5d2f8973b
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: sun-position
+  label: Sun Position
+  deviceManufacturerCode: Community
+  manufacturerName: SmartThingsCommunity
+  deviceModel: Sun Position v1
+  presentationId: 84eacbd5-5931-3c50-b47f-758c92938b14
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 2b0fb849-fb18-43a0-b70e-5035fd935420
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: presenceSensor
+          version: 1
+          optional: false
+        - id: flutefabric12437.sunPhase
+          version: 1
+          optional: false
+        - id: flutefabric12437.sunPositionDetails
+          version: 1
+          optional: false
+        - id: flutefabric12437.sunExposure
+          version: 1
+          optional: false
+      categories:
+        - name: GenericSensor
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-04-07T15:19:30.832Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 65f53816-f0a2-3ead-aca4-911d879f5547
+  lan:
+    networkId: sun-position-virtual
+    driverId: 7f278640-ea89-466e-8b86-2be4e876eea2
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: TYPED
+  type: LAN
+  vid: 84eacbd5-5931-3c50-b47f-758c92938b14
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.sensor
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 0
+      - 0
+      - 0
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: false
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lastUpdateTime: '1775741206347'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 053ae4b0-2e48-4e35-908f-70dae78488ea
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: landevmon.v5
+  label: XPEnology_N40L
+  deviceManufacturerCode: SmartThings Community
+  manufacturerName: SmartThingsCommunity
+  deviceModel: landevmon_v1.3
+  presentationId: 06dd93d4-eb0a-33f5-b75b-81601d272870
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 31e9c5a2-56ac-445b-afb8-8b56cb101c35
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: partyvoice23922.upnpstate
+          version: 1
+          optional: false
+        - id: partyvoice23922.moncontrol3
+          version: 1
+          optional: false
+        - id: partyvoice23922.upnpname
+          version: 1
+          optional: false
+        - id: partyvoice23922.upnpmodel
+          version: 1
+          optional: false
+        - id: partyvoice23922.upnpuuid
+          version: 1
+          optional: false
+        - id: partyvoice23922.upnpaddr
+          version: 1
+          optional: false
+        - id: partyvoice23922.wakeonlan
+          version: 1
+          optional: false
+        - id: partyvoice23922.createanother
+          version: 1
+          optional: false
+      categories:
+        - name: Television
+          categoryType: manufacturer
+        - name: Switch
+          categoryType: user
+      optional: false
+      icon: oneui/x.com.st.d.monitor
+  createTime: '2026-03-16T03:20:02.282Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 88ee28ff-d05f-373c-a6c5-c52a7bbc7e41
+  lan:
+    networkId: landevmon_1773631201.846
+    driverId: 606efcfe-9ad2-4dd5-9f33-554da3fd5fca
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: TYPED
+  type: LAN
+  vid: 06dd93d4-eb0a-33f5-b75b-81601d272870
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.tv
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 50
+      - 0
+      - 224
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: true
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: e2e16b44-3c59-4645-b2fd-ecb440e5c2b3
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: basic-switch
+  label: Zigbee USB Switch
+  deviceManufacturerCode: _TZ3210_adafmh93
+  manufacturerName: SmartThingsCommunity
+  deviceModel: TS0001
+  presentationId: efaac041-3f8d-3094-bf05-958ac05d9e2b
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 31e9c5a2-56ac-445b-afb8-8b56cb101c35
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: legendabsolute60149.randomOnOff2
+          version: 1
+          optional: false
+        - id: legendabsolute60149.randomNextStep2
+          version: 1
+          optional: false
+        - id: powerMeter
+          version: 1
+          optional: false
+        - id: energyMeter
+          version: 1
+          optional: false
+        - id: powerConsumptionReport
+          version: 1
+          optional: false
+        - id: legendabsolute60149.energyReset1
+          version: 1
+          optional: false
+        - id: legendabsolute60149.getGroups
+          version: 1
+          optional: false
+        - id: legendabsolute60149.signalMetrics
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+      categories:
+        - name: SmartPlug
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-06-07T13:41:44.718Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 2add67cf-6581-39cd-a3ea-035e53e6f19d
+  zigbee:
+    eui: A4C138EEA0468376
+    networkId: B065
+    driverId: bc53adfe-d18f-4ea4-9610-6aade6696b7a
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_MANUFACTURER
+    fingerprintId: TS0001/Tuya
+  type: ZIGBEE
+  vid: efaac041-3f8d-3094-bf05-958ac05d9e2b
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.smartplug
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 0
+      - 0
+      - 0
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: false
+    data:
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      lastHideTime: '0.0'
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 8bd5276b-8427-4f15-8124-8a5a5f747a3d
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: humidity-temp-battery
+  label: 거실 겸 주방 온습도센서
+  deviceManufacturerCode: eWeLink
+  manufacturerName: SmartThingsCommunity
+  deviceModel: TH01
+  presentationId: 8a84583f-6014-3086-bb7e-df04964f6cc7
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  brandId: 4de1d74c-5ddf-3fa2-9f70-8b2f028e7f67
+  productId: e300562f-efb0-43a0-947c-75bef095bb66
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: relativeHumidityMeasurement
+          version: 1
+          optional: false
+        - id: legendabsolute60149.tempCondition2
+          version: 1
+          optional: false
+        - id: legendabsolute60149.tempTarget
+          version: 1
+          optional: false
+        - id: legendabsolute60149.humidityCondition
+          version: 1
+          optional: false
+        - id: legendabsolute60149.humidityTarget
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: legendabsolute60149.signalMetrics
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+      categories:
+        - name: TempHumiditySensor
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-02-07T16:38:51.840Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: b97c4087-cb5b-3e3f-9573-f3e70259ef5e
+  zigbee:
+    eui: A4C1381FA3FA86AE
+    networkId: '3E30'
+    driverId: 3aa0ccf2-8ed9-48c1-8ec3-e6a28db0aae4
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_MANUFACTURER
+    fingerprintId: eWeLink/TH01
+  type: ZIGBEE
+  vid: 8a84583f-6014-3086-bb7e-df04964f6cc7
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.sensor.temphumidity
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 23
+      - 0
+      - 124
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: true
+    data:
+      lastHideTime: '0.0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 2352ae3d-0e9c-4fd7-ab3a-02a89885cb10
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: lg-air-conditioner-basic-nf-na-v2
+  label: 거실 에어컨
+  deviceManufacturerCode: LG
+  manufacturerName: SmartThingsCommunity
+  deviceModel: PAC_3C2001_WW
+  presentationId: da164eff-7bfc-399c-bc29-c43d2e61c4ca
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: airConditionerMode
+          version: 1
+          optional: false
+        - id: pizzatravel39897.airConditionerTargetTemp
+          version: 1
+          optional: false
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.airConditionerWindMode
+          version: 1
+          optional: false
+        - id: fanOscillationMode
+          version: 1
+          optional: false
+        - id: relativeHumidityMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.airConditionerPowerSave
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: AirConditioner
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-06-07T14:19:48.757Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 6523872d-4a32-3d82-b782-372d80e26b52
+  lan:
+    networkId: >-
+      lgthinq-ac:40a8814d30b7814cf9c2158e1ee37a1e78b1c23fd43073ae1cf7c49d7b30cd44
+    driverId: c9a599db-d5ec-4e74-8a9d-8ee31b13ac40
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: TYPED
+  type: LAN
+  vid: da164eff-7bfc-399c-bc29-c43d2e61c4ca
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.airconditioner
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 13
+      - 0
+      - 56
+    rotation:
+      - 0
+      - 315
+      - 0
+    visible: true
+    data:
+      expressionType: both_2d_3d
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      lastHideTime: '0.0'
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 31254fd0-6d41-4de0-8465-5ec69153b6d0
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: color-temp-bulb-2700K-6500K
+  label: 거실 커튼등
+  deviceManufacturerCode: eWeLight
+  manufacturerName: SmartThingsCommunity
+  deviceModel: ZB-CT01
+  presentationId: 70d70aa9-c5fa-331c-b4cd-c1863bb5d947
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: switchLevel
+          version: 1
+          optional: false
+        - id: colorTemperature
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+        - id: synthetic.lightingEffectFade
+          version: 1
+          optional: false
+        - id: synthetic.lightingEffectCircadian
+          version: 1
+          optional: false
+      categories:
+        - name: Light
+          categoryType: manufacturer
+        - name: Light
+          categoryType: user
+      optional: false
+      icon: oneui/light_strap
+  createTime: '2026-02-14T16:42:38.263Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: b94c8410-ac45-34c0-8e47-d16723d9546a
+  zigbee:
+    eui: A4C1386F4C70F9C1
+    networkId: D8F1
+    driverId: f2e891c6-00cc-446c-9192-8ebda63d9898
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_GENERIC
+    fingerprintId: genericZHAColorTempBulb
+  type: ZIGBEE
+  vid: 70d70aa9-c5fa-331c-b4cd-c1863bb5d947
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.light
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 44
+      - 0
+      - 53
+    rotation:
+      - 0
+      - 90
+      - 0
+    visible: true
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 0c0c6a3d-9d8e-456b-bea0-118919748928
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: plug-binary
+  label: 거실등
+  deviceManufacturerCode: SONOFF
+  manufacturerName: SmartThingsCommunity
+  deviceModel: Basic Gen5
+  presentationId: 8f080659-d6e1-3178-bf5c-4254497e8de8
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: SmartPlug
+          categoryType: manufacturer
+        - name: SmartPlug
+          categoryType: user
+      optional: false
+      icon: oneui/custom_light_tube
+  createTime: '2026-02-05T10:41:24.562Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: ea9f1046-6c8b-3b75-8dd5-bf08be586a78
+  matter:
+    driverId: 7103039b-68d6-442c-afe5-e1bc955924a9
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    networkId: 0838509605767115-AE8218EDA1740719
+    executingLocally: true
+    uniqueId: 4065EE5D73B263F3
+    vendorId: 4897
+    productId: 236
+    listeningType: ALWAYS
+    supportedNetworkInterfaces:
+      - WIFI
+    version:
+      hardware: 1
+      hardwareLabel: v1.0
+      software: 1
+      softwareLabel: v1.0
+    endpoints:
+      - endpointId: 0
+        deviceTypes:
+          - deviceTypeId: 22
+          - deviceTypeId: 18
+      - endpointId: 1
+        deviceTypes:
+          - deviceTypeId: 266
+    syncDrivers: true
+    fingerprintType: MATTER_GENERIC
+    fingerprintId: matter/on-off/plug
+  type: MATTER
+  vid: 8f080659-d6e1-3178-bf5c-4254497e8de8
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.smartplug
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 44
+      - 0
+      - 82
+    rotation:
+      - 0
+      - 270
+      - 0
+    visible: true
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: dd8e082c-a64b-484b-addb-3b714fa9c376
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: ikea-2-button-battery
+  label: 거실용 버튼
+  deviceManufacturerCode: IKEA of Sweden
+  manufacturerName: SmartThingsCommunity
+  deviceModel: BILRESA dual button
+  presentationId: cb006256-8e7f-3aa3-af74-dae2560214a7
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  brandId: 964722e3-7d62-3e0b-a84b-31a134874f20
+  productId: 61713eaf-8421-4563-ab11-ccbeb42a513f
+  components:
+    - id: main
+      label: Large button [ O ]
+      capabilities:
+        - id: button
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: RemoteController
+          categoryType: manufacturer
+      optional: false
+    - id: button2
+      label: Small button [ o ]
+      capabilities:
+        - id: button
+          version: 1
+          optional: false
+      categories:
+        - name: RemoteController
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-03-29T14:27:09.102Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: fbad173c-2a88-3e71-8d06-5739a18afe5d
+  matter:
+    driverId: 95a854a8-b110-4cdb-bb9e-82486235c642
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    networkId: 0838509605767115-44CAEB3F5D9B1B44
+    executingLocally: true
+    vendorId: 4476
+    productId: 32769
+    listeningType: SLEEPY
+    supportedNetworkInterfaces:
+      - THREAD
+    version:
+      hardware: 512
+      hardwareLabel: P2.0
+      software: 17367055
+      softwareLabel: 1.9.15
+    endpoints:
+      - endpointId: 0
+        deviceTypes:
+          - deviceTypeId: 18
+          - deviceTypeId: 17
+          - deviceTypeId: 22
+      - endpointId: 1
+        deviceTypes:
+          - deviceTypeId: 15
+      - endpointId: 2
+        deviceTypes:
+          - deviceTypeId: 15
+    syncDrivers: true
+    fingerprintType: MATTER_MANUFACTURER
+    fingerprintId: IKEA/BILRESA dual button
+  type: MATTER
+  vid: cb006256-8e7f-3aa3-af74-dae2560214a7
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.remotecontroller
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 26
+      - 0
+      - 102
+    rotation:
+      - 0
+      - 90
+      - 0
+    visible: true
+    data:
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      lastHideTime: '0.0'
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 0725ba45-89cc-4229-9066-e337a3df4780
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: HCA-LG-DRYER-00001
+  label: 건조기
+  deviceManufacturerCode: LG Electronics
+  manufacturerName: HCA-LG
+  deviceModel: LG Dryer
+  presentationId: HCA-LG-DRYER-00001
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: a228e510-8174-46ba-9795-4b8c049add82
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: healthCheck
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+        - id: hca.switchState
+          version: 1
+          optional: false
+        - id: hca.dryerState
+          version: 1
+          optional: false
+        - id: remoteControlStatus
+          version: 1
+          optional: false
+      categories:
+        - name: Dryer
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-01-31T14:51:13.477Z'
+  profile:
+    id: 037dfcc3-eeda-46f3-9335-0d11db855707
+  viper:
+    manufacturerName: LG Electronics
+    modelName: LG Dryer
+    endpointAppId: viper_fc8b8a00-8e82-11ee-88be-099fbeb3ed1e
+  type: VIPER
+  vid: HCA-LG-DRYER-00001
+  mnmn: HCA-LG
+  ocfDeviceType: oic.d.dryer
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 127
+      - 0
+      - 25
+    rotation:
+      - 0
+      - 90
+      - 0
+    visible: true
+    data:
+      expressionType: both_2d_3d
+      lastHideTime: '0.0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: CLOUD
+  relationships: []
+- deviceId: 79f33971-1ceb-4332-9274-e345576864d2
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: plug-power-energy-powerConsumption
+  label: 공기청정기 플러그
+  deviceManufacturerCode: IKEA of Sweden
+  manufacturerName: SmartThingsCommunity
+  deviceModel: GRILLPLATS Plug
+  presentationId: 8e18bf57-509c-38b4-af7f-871dd01bbb01
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 2ff79b36-1911-481a-9b2e-8b90818acaa9
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: powerMeter
+          version: 1
+          optional: false
+        - id: energyMeter
+          version: 1
+          optional: false
+        - id: powerConsumptionReport
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: SmartPlug
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-05-11T22:10:50.342Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 6d166eee-a675-3029-a122-db310d109376
+  matter:
+    driverId: 7103039b-68d6-442c-afe5-e1bc955924a9
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    networkId: 0838509605767115-6CC482373E00848B
+    executingLocally: true
+    uniqueId: CE607156CF0EC52C
+    vendorId: 4476
+    productId: 4096
+    listeningType: ALWAYS
+    supportedNetworkInterfaces:
+      - THREAD
+    version:
+      hardware: 512
+      hardwareLabel: P2.0
+      software: 17039366
+      softwareLabel: 1.4.6
+    endpoints:
+      - endpointId: 0
+        deviceTypes:
+          - deviceTypeId: 18
+          - deviceTypeId: 22
+      - endpointId: 1
+        deviceTypes:
+          - deviceTypeId: 266
+      - endpointId: 2
+        deviceTypes:
+          - deviceTypeId: 1296
+    syncDrivers: true
+    fingerprintType: MATTER_GENERIC
+    fingerprintId: matter/on-off/plug/electrical-sensor
+  type: MATTER
+  vid: 8e18bf57-509c-38b4-af7f-871dd01bbb01
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.smartplug
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 126
+      - 0
+      - 119
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: true
+    data:
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      lastHideTime: '0.0'
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: accdf0a0-3f7a-4c2e-9351-90de21728ccb
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: 날씨 방송 스위치
+  label: 날씨 방송 스위치
+  manufacturerName: SmartThingsCommunity
+  presentationId: 3cf8674f-8928-31d0-b5a2-c8659e897bfb
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 2b0fb849-fb18-43a0-b70e-5035fd935420
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+      categories:
+        - name: Switch
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-06-08T02:12:29.943Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 547a3a69-f76e-30fb-b0d4-4174cac5bc11
+  virtual:
+    name: 날씨 방송 스위치
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    driverId: 572a2641-2af8-47e4-bfe5-ad83748fd7a1
+    executingLocally: true
+  type: VIRTUAL
+  vid: 3cf8674f-8928-31d0-b5a2-c8659e897bfb
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.switch
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 0
+      - 0
+      - 0
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: false
+    data:
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      lastHideTime: '0.0'
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 831ea08c-bb83-4b78-be64-da4fe10ab835
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: lg-refrigerator-v1
+  label: 냉장고
+  deviceManufacturerCode: LG
+  manufacturerName: SmartThingsCommunity
+  deviceModel: 2RSFL2DBN3K_Z
+  presentationId: 4676a31a-2ec6-3a54-86cf-8ee657798f5f
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: contactSensor
+          version: 1
+          optional: false
+        - id: pizzatravel39897.refrigeratorFridgeTemperature
+          version: 1
+          optional: false
+        - id: pizzatravel39897.refrigeratorFreezerTemperature
+          version: 1
+          optional: false
+        - id: pizzatravel39897.refrigeratorExpressFreeze
+          version: 1
+          optional: false
+        - id: pizzatravel39897.refrigeratorFreshAirFilter
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: Refrigerator
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-06-07T14:19:48.768Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 6864f233-7c21-3931-9a7b-780d5a781080
+  lan:
+    networkId: >-
+      lgthinq-refrigerator:840e223c412d2881f3f95f490a3cfb2d70819a1b64e0a0a2a71d39d0d41537bd
+    driverId: c9a599db-d5ec-4e74-8a9d-8ee31b13ac40
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: TYPED
+  type: LAN
+  vid: 4676a31a-2ec6-3a54-86cf-8ee657798f5f
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.refrigerator
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 74
+      - 0
+      - 161
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: true
+    data:
+      lastHideTime: '0.0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: both_2d_3d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: e9b593d2-e4e0-40d4-b74e-46d2d3e736e4
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: generic-sensor
+  label: 누수 감지기(베란다 우수관)
+  deviceManufacturerCode: HOBEIAN
+  manufacturerName: SmartThingsCommunity
+  deviceModel: ZG-222Z
+  presentationId: 759cccc4-5559-3718-9387-e73fa9f28bc0
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: a228e510-8174-46ba-9795-4b8c049add82
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: waterSensor
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: LeakSensor
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-02-28T14:05:26.554Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: c9d289de-46e8-3968-831d-80f707e4d589
+  zigbee:
+    eui: A4C138585CE7A14E
+    networkId: DEF0
+    driverId: 166c1c25-fc5c-4849-8ef9-6e127e72e453
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_GENERIC
+    fingerprintId: generic-battery-sensor
+  type: ZIGBEE
+  vid: 759cccc4-5559-3718-9387-e73fa9f28bc0
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.sensor.moisture
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 94
+      - 0
+      - 25
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: true
+    data:
+      lastHideTime: '0.0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 1e21d8e6-63f3-4a68-bd5f-36123feb62af
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: generic-sensor
+  label: 누수 감지기(싱크대 하부장)
+  deviceManufacturerCode: HOBEIAN
+  manufacturerName: SmartThingsCommunity
+  deviceModel: ZG-222Z
+  presentationId: 759cccc4-5559-3718-9387-e73fa9f28bc0
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: waterSensor
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: LeakSensor
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-02-28T14:27:44.069Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: c9d289de-46e8-3968-831d-80f707e4d589
+  zigbee:
+    eui: A4C138BED3714B47
+    networkId: B136
+    driverId: 166c1c25-fc5c-4849-8ef9-6e127e72e453
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_GENERIC
+    fingerprintId: generic-battery-sensor
+  type: ZIGBEE
+  vid: 759cccc4-5559-3718-9387-e73fa9f28bc0
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.sensor.moisture
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 37
+      - 0
+      - 161
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: true
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 0e19ad61-f63d-4ac1-a5be-024940374cc7
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: 3분 이상 외출
+  label: 도어락 시간(3분)
+  manufacturerName: SmartThingsCommunity
+  presentationId: 3cf8674f-8928-31d0-b5a2-c8659e897bfb
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 2b0fb849-fb18-43a0-b70e-5035fd935420
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+      categories:
+        - name: Switch
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-04-05T08:05:31.653Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 547a3a69-f76e-30fb-b0d4-4174cac5bc11
+  virtual:
+    name: 3분 이상 외출
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    driverId: 572a2641-2af8-47e4-bfe5-ad83748fd7a1
+    executingLocally: true
+  type: VIRTUAL
+  vid: 3cf8674f-8928-31d0-b5a2-c8659e897bfb
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.switch
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 0
+      - 0
+      - 0
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: false
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 8a64ab4c-f979-4239-b8d9-9079d1e89a46
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: motion-battery
+  label: 동작 감지 센서
+  deviceManufacturerCode: eWeLink
+  manufacturerName: SmartThingsCommunity
+  deviceModel: MS01
+  presentationId: 3f8a53e4-4668-3393-95fa-6d799bdcf5db
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: a228e510-8174-46ba-9795-4b8c049add82
+  brandId: 38052658-902c-3332-8806-46a749b717ce
+  productId: 7f871f7f-447e-3268-b1b2-aedea461bc24
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: motionSensor
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: legendabsolute60149.signalMetrics
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+      categories:
+        - name: MotionSensor
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-02-28T14:33:41.963Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: c9dba622-8ee7-3f90-a0eb-051e5bc0058e
+  zigbee:
+    eui: A4C138DABAF86AC9
+    networkId: FF41
+    driverId: 00425c55-0932-416f-a1ba-78fae98ab614
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_MANUFACTURER
+    fingerprintId: eWeLink/MS01
+  type: ZIGBEE
+  vid: 3f8a53e4-4668-3393-95fa-6d799bdcf5db
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.sensor.motion
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 78
+      - 0
+      - 16
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: true
+    data:
+      expressionType: only_2d
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      lastHideTime: '0.0'
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 2d1129d8-8c21-49fc-92aa-944ff6954b40
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: light-level-colorTemperature
+  label: 베란다등
+  deviceManufacturerCode: IKEA of Sweden
+  manufacturerName: SmartThingsCommunity
+  deviceModel: KAJPLATS E26 WS globe 1521lm
+  presentationId: c2f636bc-54a2-3e55-8662-616ced2cb3b6
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: a228e510-8174-46ba-9795-4b8c049add82
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: switchLevel
+          version: 1
+          optional: false
+        - id: statelessSwitchLevelStep
+          version: 1
+          optional: false
+        - id: colorTemperature
+          version: 1
+          optional: false
+        - id: statelessColorTemperatureStep
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+        - id: synthetic.lightingEffectFade
+          version: 1
+          optional: false
+        - id: synthetic.lightingEffectCircadian
+          version: 1
+          optional: false
+      categories:
+        - name: Light
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-04-19T05:59:58.247Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 3f2401fc-5425-3d5b-9fde-2fbf44044cba
+  matter:
+    driverId: 7103039b-68d6-442c-afe5-e1bc955924a9
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    networkId: 0838509605767115-90C72DEBDA1B47EA
+    executingLocally: true
+    uniqueId: 73040483D8AD2E15
+    vendorId: 4476
+    productId: 36867
+    listeningType: ALWAYS
+    supportedNetworkInterfaces:
+      - THREAD
+    version:
+      hardware: 512
+      hardwareLabel: P2.0
+      software: 16908288
+      softwareLabel: 1.2.0
+    endpoints:
+      - endpointId: 0
+        deviceTypes:
+          - deviceTypeId: 18
+          - deviceTypeId: 22
+      - endpointId: 1
+        deviceTypes:
+          - deviceTypeId: 268
+    syncDrivers: true
+    fingerprintType: MATTER_GENERIC
+    fingerprintId: matter/colorTemperature/light
+  type: MATTER
+  vid: c2f636bc-54a2-3e55-8662-616ced2cb3b6
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.light
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 97
+      - 0
+      - 8
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: true
+    data:
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      lastHideTime: '0.0'
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 586e0ccc-3fe2-4424-bdae-beee5665d69b
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: generic-sensor
+  label: 베란다문 센서
+  deviceManufacturerCode: eWeLink
+  manufacturerName: SmartThingsCommunity
+  deviceModel: SNZB-04P
+  presentationId: 04ade5be-d40e-3b8a-aff0-96d62897778d
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  brandId: 4de1d74c-5ddf-3fa2-9f70-8b2f028e7f67
+  productId: 47c2e0d6-3283-4781-8437-859e636da80c
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: contactSensor
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: ContactSensor
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-04-21T14:46:13.660Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: ed981b83-0430-30e7-8bf4-0d501cbf0230
+  zigbee:
+    eui: 983268FFFE991636
+    networkId: D3D5
+    driverId: 166c1c25-fc5c-4849-8ef9-6e127e72e453
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_GENERIC
+    fingerprintId: generic-battery-sensor
+  type: ZIGBEE
+  vid: 04ade5be-d40e-3b8a-aff0-96d62897778d
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.sensor.contact
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 74
+      - 0
+      - 53
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: true
+    data:
+      lastHideTime: '0.0'
+      expressionType: only_2d
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 171ff511-3f37-46e9-858f-a0e1ff4c9811
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: zigbee-sonoff-button-1
+  label: 베란다용 버튼
+  deviceManufacturerCode: HOBEIAN
+  manufacturerName: SmartThingsCommunity
+  deviceModel: ZG-101ZL
+  presentationId: d9b2945c-d203-3257-9cdb-4d7f6f403220
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: a228e510-8174-46ba-9795-4b8c049add82
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: battery
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: RemoteController
+          categoryType: manufacturer
+      optional: false
+    - id: button1
+      label: button1
+      capabilities:
+        - id: button
+          version: 1
+          optional: false
+      categories:
+        - name: Other
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-04-19T06:40:10.662Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 31e7bc92-39b8-3afe-9c07-cdbbc4aa2d61
+  zigbee:
+    eui: A4C1389AEDF7DF2A
+    networkId: BD77
+    driverId: 62bd9121-0ed3-4724-838f-cfa8a4d5a9a5
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_MANUFACTURER
+    fingerprintId: HOBEIAN/ZG-101ZL
+  type: ZIGBEE
+  vid: d9b2945c-d203-3257-9cdb-4d7f6f403220
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.remotecontroller
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 74
+      - 0
+      - 33
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: true
+    data:
+      lastHideTime: '0.0'
+      expressionType: only_2d
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 36c31f42-1b79-4010-bb67-764ff47653a1
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: bcm.v2
+  label: 보일러 제어기
+  manufacturerName: SmartThingsCommunity
+  presentationId: a02f1e8e-6b8a-3c07-82cd-ddee01717d72
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 2ff79b36-1911-481a-9b2e-8b90818acaa9
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: refresh
+          version: 1
+          optional: false
+        - id: switch
+          version: 1
+          optional: false
+        - id: dancesystem09434.bcmOperationMode
+          version: 1
+          optional: false
+      categories:
+        - name: WaterHeater
+          categoryType: manufacturer
+        - name: WaterHeater
+          categoryType: user
+      optional: false
+    - id: roomTemperature
+      label: roomTemperature
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+      categories:
+        - name: Other
+          categoryType: manufacturer
+        - name: Others
+          categoryType: user
+      optional: false
+    - id: fireState
+      label: fireState
+      capabilities:
+        - id: contactSensor
+          version: 1
+          optional: false
+      categories:
+        - name: Other
+          categoryType: manufacturer
+        - name: Others
+          categoryType: user
+      optional: false
+    - id: currentTemperature
+      label: currentTemperature
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: thermostatHeatingSetpoint
+          version: 1
+          optional: false
+      categories:
+        - name: Other
+          categoryType: manufacturer
+        - name: Others
+          categoryType: user
+      optional: false
+    - id: onsuTemperature
+      label: waterTemperature
+      capabilities:
+        - id: dancesystem09434.onsuLevel3Step
+          version: 1
+          optional: false
+      categories:
+        - name: Other
+          categoryType: manufacturer
+        - name: Others
+          categoryType: user
+      optional: false
+    - id: presenceMode
+      label: presenceMode
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+      categories:
+        - name: Other
+          categoryType: manufacturer
+        - name: Others
+          categoryType: user
+      optional: false
+    - id: timerMode
+      label: timerMode
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+      categories:
+        - name: Other
+          categoryType: manufacturer
+        - name: Others
+          categoryType: user
+      optional: false
+  createTime: '2026-02-05T10:49:28.277Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 094ed4a4-6a6d-3d2e-879c-fd344a6a5ec3
+  lan:
+    networkId: BCM-a8:2b:d6:11:dc:3c
+    driverId: 46344232-6841-42c1-badd-92400c17c2da
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: DRIVER_SWITCH
+  type: LAN
+  vid: a02f1e8e-6b8a-3c07-82cd-ddee01717d72
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.waterheater
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 110
+      - 0
+      - 119
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: true
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 02e9ec46-2e3e-43e4-a11c-b4b7eca9c1cd
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: humidity-temp-battery
+  label: 보일러실 온습도센서
+  deviceManufacturerCode: eWeLink
+  manufacturerName: SmartThingsCommunity
+  deviceModel: TH01
+  presentationId: 8a84583f-6014-3086-bb7e-df04964f6cc7
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: a228e510-8174-46ba-9795-4b8c049add82
+  brandId: 4de1d74c-5ddf-3fa2-9f70-8b2f028e7f67
+  productId: e300562f-efb0-43a0-947c-75bef095bb66
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: relativeHumidityMeasurement
+          version: 1
+          optional: false
+        - id: legendabsolute60149.tempCondition2
+          version: 1
+          optional: false
+        - id: legendabsolute60149.tempTarget
+          version: 1
+          optional: false
+        - id: legendabsolute60149.humidityCondition
+          version: 1
+          optional: false
+        - id: legendabsolute60149.humidityTarget
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: legendabsolute60149.signalMetrics
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+      categories:
+        - name: TempHumiditySensor
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-02-07T10:08:12.606Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: b97c4087-cb5b-3e3f-9573-f3e70259ef5e
+  zigbee:
+    eui: A4C138EEA5B19B55
+    networkId: 4BB9
+    driverId: 3aa0ccf2-8ed9-48c1-8ec3-e6a28db0aae4
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_MANUFACTURER
+    fingerprintId: eWeLink/TH01
+  type: ZIGBEE
+  vid: 8a84583f-6014-3086-bb7e-df04964f6cc7
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.sensor.temphumidity
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 143
+      - 0
+      - 25
+    rotation:
+      - 0
+      - 90
+      - 0
+    visible: true
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 6768eee3-2368-4bd3-b4de-74c467977d1c
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: plug-binary
+  label: 복도등
+  deviceManufacturerCode: SONOFF
+  manufacturerName: SmartThingsCommunity
+  deviceModel: Basic Gen5
+  presentationId: 8f080659-d6e1-3178-bf5c-4254497e8de8
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: SmartPlug
+          categoryType: manufacturer
+        - name: SmartPlug
+          categoryType: user
+      optional: false
+      icon: preload/hood
+  createTime: '2026-02-07T08:55:35.978Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: ea9f1046-6c8b-3b75-8dd5-bf08be586a78
+  matter:
+    driverId: 7103039b-68d6-442c-afe5-e1bc955924a9
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    networkId: 0838509605767115-E80A5EBFB07FD40A
+    executingLocally: true
+    uniqueId: 48F3C7CA4213611A
+    vendorId: 4897
+    productId: 236
+    listeningType: ALWAYS
+    supportedNetworkInterfaces:
+      - WIFI
+    version:
+      hardware: 1
+      hardwareLabel: v1.0
+      software: 1
+      softwareLabel: v1.0
+    endpoints:
+      - endpointId: 0
+        deviceTypes:
+          - deviceTypeId: 22
+          - deviceTypeId: 18
+      - endpointId: 1
+        deviceTypes:
+          - deviceTypeId: 266
+    syncDrivers: true
+    fingerprintType: MATTER_GENERIC
+    fingerprintId: matter/on-off/plug
+  type: MATTER
+  vid: 8f080659-d6e1-3178-bf5c-4254497e8de8
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.smartplug
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 93
+      - 0
+      - 150
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: true
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 793fff3b-b28e-4ade-9191-63b934d4e296
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: ikea-2-button-battery
+  label: 붙박이방 버튼
+  deviceManufacturerCode: IKEA of Sweden
+  manufacturerName: SmartThingsCommunity
+  deviceModel: BILRESA dual button
+  presentationId: cb006256-8e7f-3aa3-af74-dae2560214a7
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 31e9c5a2-56ac-445b-afb8-8b56cb101c35
+  brandId: 964722e3-7d62-3e0b-a84b-31a134874f20
+  productId: 61713eaf-8421-4563-ab11-ccbeb42a513f
+  components:
+    - id: main
+      label: Button 1
+      capabilities:
+        - id: button
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: RemoteController
+          categoryType: manufacturer
+      optional: false
+    - id: button2
+      label: Button 2
+      capabilities:
+        - id: button
+          version: 1
+          optional: false
+      categories:
+        - name: RemoteController
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-05-18T11:26:28.071Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 0590ec14-c414-3f07-add6-79a95d09f2ee
+  matter:
+    driverId: 7103039b-68d6-442c-afe5-e1bc955924a9
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    networkId: 0838509605767115-BE4723691269277F
+    executingLocally: true
+    vendorId: 4476
+    productId: 32769
+    listeningType: SLEEPY
+    supportedNetworkInterfaces:
+      - THREAD
+    version:
+      hardware: 512
+      hardwareLabel: P2.0
+      software: 17301509
+      softwareLabel: 1.8.5
+    endpoints:
+      - endpointId: 0
+        deviceTypes:
+          - deviceTypeId: 18
+          - deviceTypeId: 17
+          - deviceTypeId: 22
+      - endpointId: 1
+        deviceTypes:
+          - deviceTypeId: 15
+      - endpointId: 2
+        deviceTypes:
+          - deviceTypeId: 15
+    syncDrivers: true
+    fingerprintType: MATTER_MANUFACTURER
+    fingerprintId: 4476/32769
+  type: MATTER
+  vid: cb006256-8e7f-3aa3-af74-dae2560214a7
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.remotecontroller
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 50
+      - 0
+      - 192
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: true
+    data:
+      lastHideTime: '0.0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 18402e08-a0fe-47dd-9ca8-e34667ef9548
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: humidity-temp-battery
+  label: 붙박이방 온습도센서
+  deviceManufacturerCode: eWeLink
+  manufacturerName: SmartThingsCommunity
+  deviceModel: TH01
+  presentationId: 8a84583f-6014-3086-bb7e-df04964f6cc7
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 31e9c5a2-56ac-445b-afb8-8b56cb101c35
+  brandId: 4de1d74c-5ddf-3fa2-9f70-8b2f028e7f67
+  productId: e300562f-efb0-43a0-947c-75bef095bb66
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: relativeHumidityMeasurement
+          version: 1
+          optional: false
+        - id: legendabsolute60149.tempCondition2
+          version: 1
+          optional: false
+        - id: legendabsolute60149.tempTarget
+          version: 1
+          optional: false
+        - id: legendabsolute60149.humidityCondition
+          version: 1
+          optional: false
+        - id: legendabsolute60149.humidityTarget
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: legendabsolute60149.signalMetrics
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+      categories:
+        - name: TempHumiditySensor
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-02-07T10:12:27.772Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: b97c4087-cb5b-3e3f-9573-f3e70259ef5e
+  zigbee:
+    eui: A4C138A88E339B92
+    networkId: '8523'
+    driverId: 3aa0ccf2-8ed9-48c1-8ec3-e6a28db0aae4
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_MANUFACTURER
+    fingerprintId: eWeLink/TH01
+  type: ZIGBEE
+  vid: 8a84583f-6014-3086-bb7e-df04964f6cc7
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.sensor.temphumidity
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 66
+      - 0
+      - 192
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: true
+    data:
+      lastHideTime: '0.0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 43894fc6-d1a6-49f4-bfac-bae2f218595c
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: color-temp-bulb-2700K-6500K
+  label: 상부장등
+  deviceManufacturerCode: eWeLight
+  manufacturerName: SmartThingsCommunity
+  deviceModel: ZB-CT01
+  presentationId: 70d70aa9-c5fa-331c-b4cd-c1863bb5d947
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: switchLevel
+          version: 1
+          optional: false
+        - id: colorTemperature
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+        - id: synthetic.lightingEffectFade
+          version: 1
+          optional: false
+        - id: synthetic.lightingEffectCircadian
+          version: 1
+          optional: false
+      categories:
+        - name: Light
+          categoryType: manufacturer
+        - name: Light
+          categoryType: user
+      optional: false
+      icon: oneui/light_strap
+  createTime: '2026-03-07T06:28:26.159Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: b94c8410-ac45-34c0-8e47-d16723d9546a
+  zigbee:
+    eui: A4C13837AA2CEC2A
+    networkId: F010
+    driverId: f2e891c6-00cc-446c-9192-8ebda63d9898
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: NONFUNCTIONAL
+    fingerprintType: ZIGBEE_GENERIC
+    fingerprintId: genericZHAColorTempBulb
+  type: ZIGBEE
+  vid: 70d70aa9-c5fa-331c-b4cd-c1863bb5d947
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.light
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 53
+      - 0
+      - 161
+    rotation:
+      - 0
+      - 90
+      - 0
+    visible: true
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 0b46561c-b5d2-47fb-a6e4-bf6a2e6ad7bd
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: HCA-LG-WASHER-00001
+  label: 세탁기
+  deviceManufacturerCode: LG Electronics
+  manufacturerName: HCA-LG
+  deviceModel: LG Washer
+  presentationId: HCA-LG-WASHER-00001
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: a228e510-8174-46ba-9795-4b8c049add82
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: healthCheck
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+        - id: hca.switchState
+          version: 1
+          optional: false
+        - id: hca.washerState
+          version: 1
+          optional: false
+        - id: remoteControlStatus
+          version: 1
+          optional: false
+      categories:
+        - name: Washer
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-01-31T14:51:13.478Z'
+  profile:
+    id: b56fcdac-7358-4a3b-b1ac-6dbae164026b
+  viper:
+    manufacturerName: LG Electronics
+    modelName: LG Washer
+    endpointAppId: viper_fc8b8a00-8e82-11ee-88be-099fbeb3ed1e
+  type: VIPER
+  vid: HCA-LG-WASHER-00001
+  mnmn: HCA-LG
+  ocfDeviceType: oic.d.washer
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 111
+      - 0
+      - 25
+    rotation:
+      - 0
+      - 90
+      - 0
+    visible: true
+    data:
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: both_2d_3d
+      lastHideTime: '0.0'
+  executionContext: CLOUD
+  relationships: []
+- deviceId: eb428f23-b72c-42f1-8aad-db0232350940
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: aqara-lock-battery
+  label: 스마트 도어록 L100
+  deviceManufacturerCode: Lumi
+  manufacturerName: SolutionsEngineering
+  deviceModel: aqara.lock.akr001
+  presentationId: SmartThings-smartthings-Aqara_K100
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 93e4a00b-0387-4df3-9389-12de6009373e
+  brandId: a79f7dd7-b6ba-3128-8e4b-79ad2ccc5eea
+  productId: 46d43a5a-ae2b-4f85-a6de-1c4dc4f3b241
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: lock
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: batteryLevel
+          version: 1
+          optional: false
+        - id: lockAlarm
+          version: 1
+          optional: false
+        - id: remoteControlStatus
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: stse.lockCredentialInfo
+          version: 1
+          optional: false
+        - id: stse.antiLockStatus
+          version: 1
+          optional: false
+      categories:
+        - name: SmartLock
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-03-19T10:43:07.663Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 2e103fd9-8e9b-373a-a2a4-99c5ed8839ed
+  zigbee:
+    eui: 54EF441001389513
+    networkId: 07B5
+    driverId: 0b6f220f-09e7-4e73-85f9-9d6844b61c03
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_MANUFACTURER
+    fingerprintId: Lumi/aqara.lock.akr001
+  type: ZIGBEE
+  vid: SmartThings-smartthings-Aqara_K100
+  mnmn: SolutionsEngineering
+  ocfDeviceType: oic.d.smartlock
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 0
+      - 0
+      - 0
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: false
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: e0bcbf25-059a-48c0-bf95-a88e9ed23c0c
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: lg-air-conditioner-basic-nf-na-v2
+  label: 안방 에어컨
+  deviceManufacturerCode: LG
+  manufacturerName: SmartThingsCommunity
+  deviceModel: RAC_4C1011_WW
+  presentationId: da164eff-7bfc-399c-bc29-c43d2e61c4ca
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 2ff79b36-1911-481a-9b2e-8b90818acaa9
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: airConditionerMode
+          version: 1
+          optional: false
+        - id: pizzatravel39897.airConditionerTargetTemp
+          version: 1
+          optional: false
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.airConditionerWindMode
+          version: 1
+          optional: false
+        - id: fanOscillationMode
+          version: 1
+          optional: false
+        - id: relativeHumidityMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.airConditionerPowerSave
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: AirConditioner
+          categoryType: manufacturer
+        - name: AirConditioner
+          categoryType: user
+      optional: false
+      icon: oneui/custom_floor_ac_1way
+  createTime: '2026-06-07T14:19:47.685Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 6523872d-4a32-3d82-b782-372d80e26b52
+  lan:
+    networkId: >-
+      lgthinq-ac:1113d876a40969bf20187b3ed8c876419a9b1c8bba4a377a9526ebbea43f55d9
+    driverId: c9a599db-d5ec-4e74-8a9d-8ee31b13ac40
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: TYPED
+  type: LAN
+  vid: da164eff-7bfc-399c-bc29-c43d2e61c4ca
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.airconditioner
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 94
+      - 0
+      - 61
+    rotation:
+      - 0
+      - 270
+      - 0
+    visible: true
+    data:
+      expressionType: both_2d_3d
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      lastHideTime: '0.0'
+  executionContext: LOCAL
+  relationships: []
+- deviceId: e64c892f-b4ee-4119-9c87-f1750892786f
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: humidity-temp-battery
+  label: 안방 온습도계
+  deviceManufacturerCode: eWeLink
+  manufacturerName: SmartThingsCommunity
+  deviceModel: TH01
+  presentationId: 8a84583f-6014-3086-bb7e-df04964f6cc7
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 2ff79b36-1911-481a-9b2e-8b90818acaa9
+  brandId: 4de1d74c-5ddf-3fa2-9f70-8b2f028e7f67
+  productId: e300562f-efb0-43a0-947c-75bef095bb66
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: relativeHumidityMeasurement
+          version: 1
+          optional: false
+        - id: legendabsolute60149.tempCondition2
+          version: 1
+          optional: false
+        - id: legendabsolute60149.tempTarget
+          version: 1
+          optional: false
+        - id: legendabsolute60149.humidityCondition
+          version: 1
+          optional: false
+        - id: legendabsolute60149.humidityTarget
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: legendabsolute60149.signalMetrics
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+      categories:
+        - name: TempHumiditySensor
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-02-07T10:31:25.179Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: b97c4087-cb5b-3e3f-9573-f3e70259ef5e
+  zigbee:
+    eui: A4C138D0CE74388D
+    networkId: '0924'
+    driverId: 3aa0ccf2-8ed9-48c1-8ec3-e6a28db0aae4
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_MANUFACTURER
+    fingerprintId: eWeLink/TH01
+  type: ZIGBEE
+  vid: 8a84583f-6014-3086-bb7e-df04964f6cc7
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.sensor.temphumidity
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 94
+      - 0
+      - 77
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: true
+    data:
+      lastHideTime: '0.0'
+      expressionType: only_2d
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 9633ada3-824d-4d17-bbd9-bf7d599fa079
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: color-temp-bulb-2700K-6500K
+  label: 안방 커튼등
+  deviceManufacturerCode: eWeLight
+  manufacturerName: SmartThingsCommunity
+  deviceModel: ZB-CT01
+  presentationId: 70d70aa9-c5fa-331c-b4cd-c1863bb5d947
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 2ff79b36-1911-481a-9b2e-8b90818acaa9
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: switchLevel
+          version: 1
+          optional: false
+        - id: colorTemperature
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+        - id: synthetic.lightingEffectFade
+          version: 1
+          optional: false
+        - id: synthetic.lightingEffectCircadian
+          version: 1
+          optional: false
+      categories:
+        - name: Light
+          categoryType: manufacturer
+        - name: Light
+          categoryType: user
+      optional: false
+      icon: oneui/light_strap
+  createTime: '2026-03-15T07:32:16.586Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: b94c8410-ac45-34c0-8e47-d16723d9546a
+  zigbee:
+    eui: A4C1384B2A996E55
+    networkId: D8FF
+    driverId: f2e891c6-00cc-446c-9192-8ebda63d9898
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: NONFUNCTIONAL
+    fingerprintType: ZIGBEE_GENERIC
+    fingerprintId: genericZHAColorTempBulb
+  type: ZIGBEE
+  vid: 70d70aa9-c5fa-331c-b4cd-c1863bb5d947
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.light
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 124
+      - 0
+      - 45
+    rotation:
+      - 0
+      - 90
+      - 0
+    visible: true
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 1961e5e0-8f2e-4b67-81bd-5173951723dc
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: plug-binary
+  label: 안방등
+  deviceManufacturerCode: SONOFF
+  manufacturerName: SmartThingsCommunity
+  deviceModel: Basic Gen5
+  presentationId: 8f080659-d6e1-3178-bf5c-4254497e8de8
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 2ff79b36-1911-481a-9b2e-8b90818acaa9
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: SmartPlug
+          categoryType: manufacturer
+        - name: SmartPlug
+          categoryType: user
+      optional: false
+      icon: oneui/custom_light_tube
+  createTime: '2026-02-21T09:17:42.920Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: ea9f1046-6c8b-3b75-8dd5-bf08be586a78
+  matter:
+    driverId: 7103039b-68d6-442c-afe5-e1bc955924a9
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    networkId: 0838509605767115-7E002A6139214B11
+    executingLocally: true
+    uniqueId: 6DBE0AA2151AB3BF
+    vendorId: 4897
+    productId: 236
+    listeningType: ALWAYS
+    supportedNetworkInterfaces:
+      - WIFI
+    version:
+      hardware: 1
+      hardwareLabel: v1.0
+      software: 1
+      softwareLabel: v1.0
+    endpoints:
+      - endpointId: 0
+        deviceTypes:
+          - deviceTypeId: 22
+          - deviceTypeId: 18
+      - endpointId: 1
+        deviceTypes:
+          - deviceTypeId: 266
+    syncDrivers: true
+    fingerprintType: MATTER_GENERIC
+    fingerprintId: matter/on-off/plug
+  type: MATTER
+  vid: 8f080659-d6e1-3178-bf5c-4254497e8de8
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.smartplug
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 124
+      - 0
+      - 81
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: true
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: a5c0a69f-91cb-4398-a46a-0d9f482da672
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: ikea-2-button-battery
+  label: 안방용 버튼
+  deviceManufacturerCode: IKEA of Sweden
+  manufacturerName: SmartThingsCommunity
+  deviceModel: BILRESA dual button
+  presentationId: cb006256-8e7f-3aa3-af74-dae2560214a7
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 2ff79b36-1911-481a-9b2e-8b90818acaa9
+  components:
+    - id: main
+      label: Button 1
+      capabilities:
+        - id: button
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: RemoteController
+          categoryType: manufacturer
+      optional: false
+    - id: button2
+      label: Button 2
+      capabilities:
+        - id: button
+          version: 1
+          optional: false
+      categories:
+        - name: RemoteController
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-03-16T12:51:00.151Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 0590ec14-c414-3f07-add6-79a95d09f2ee
+  matter:
+    driverId: 7103039b-68d6-442c-afe5-e1bc955924a9
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    networkId: 0838509605767115-07F806911A09F87B
+    executingLocally: true
+    vendorId: 4476
+    productId: 32769
+    listeningType: SLEEPY
+    supportedNetworkInterfaces:
+      - THREAD
+    version:
+      hardware: 512
+      hardwareLabel: P2.0
+      software: 17301509
+      softwareLabel: 1.8.5
+    endpoints:
+      - endpointId: 0
+        deviceTypes:
+          - deviceTypeId: 18
+          - deviceTypeId: 17
+          - deviceTypeId: 22
+      - endpointId: 1
+        deviceTypes:
+          - deviceTypeId: 15
+      - endpointId: 2
+        deviceTypes:
+          - deviceTypeId: 15
+    syncDrivers: true
+    fingerprintType: MATTER_MANUFACTURER
+    fingerprintId: 4476/32769
+  type: MATTER
+  vid: cb006256-8e7f-3aa3-af74-dae2560214a7
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.remotecontroller
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 158
+      - 0
+      - 56
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: true
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 3e366c77-cad8-4cd8-a5c8-0c65db98fbb6
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: setup
+  label: 엣지드라이버 업데이트
+  deviceManufacturerCode: clipman@naver.com
+  manufacturerName: SmartThingsCommunity
+  deviceModel: Edge
+  presentationId: 112bf9a8-90a1-3e8b-940f-765cc005f698
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 2b0fb849-fb18-43a0-b70e-5035fd935420
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: letsfly.info
+          version: 1
+          optional: false
+      categories:
+        - name: Hub
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-06-01T16:02:07.942Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 17e5a640-72fd-383d-b029-73439bfe5282
+  lan:
+    networkId: smartthings-edge-hub
+    driverId: 647dfa4d-fb6e-481d-87f7-9563a363bfcd
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: TYPED
+  type: LAN
+  vid: 112bf9a8-90a1-3e8b-940f-765cc005f698
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.hub
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 0
+      - 0
+      - 0
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: false
+    data:
+      expressionType: only_2d
+      lastHideTime: '0.0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 2fbde065-59fc-474c-82bf-9cf20f6444f3
+  ownerId: b0ee9378-5bc6-8f17-89b9-08b465e7dd20
+  name: 유진의 S24+
+  label: 유진의 S24+
+  manufacturerName: SmartThings
+  presentationId: SmartThings-smartthings-Mobile_Presence
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  components:
+    - id: main
+      label: 동미니 유지니 홈
+      capabilities:
+        - id: presenceSensor
+          version: 1
+          optional: false
+      categories:
+        - name: MobilePresence
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-03-11T10:21:15.595Z'
+  parentDeviceId: 6598c574-6eae-4b54-bb49-1baa74cf8a03
+  profile:
+    id: 1b6b60d0-475f-3d7a-89a4-ad16a0809702
+  type: MOBILE
+  vid: SmartThings-smartthings-Mobile_Presence
+  mnmn: SmartThings
+  ocfDeviceType: x.com.st.d.mobile.presence
+  restrictionTier: 0
+  allowed: []
+  executionContext: CLOUD
+  relationships: []
+- deviceId: 7b98c5ae-5f00-481c-a297-11b10d2d3280
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: humidity-temp-battery
+  label: 작은방 온습도센서
+  deviceManufacturerCode: eWeLink
+  manufacturerName: SmartThingsCommunity
+  deviceModel: TH01
+  presentationId: 8a84583f-6014-3086-bb7e-df04964f6cc7
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: f968f745-c1c9-4492-a86c-ac63e7558809
+  brandId: 4de1d74c-5ddf-3fa2-9f70-8b2f028e7f67
+  productId: e300562f-efb0-43a0-947c-75bef095bb66
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: relativeHumidityMeasurement
+          version: 1
+          optional: false
+        - id: legendabsolute60149.tempCondition2
+          version: 1
+          optional: false
+        - id: legendabsolute60149.tempTarget
+          version: 1
+          optional: false
+        - id: legendabsolute60149.humidityCondition
+          version: 1
+          optional: false
+        - id: legendabsolute60149.humidityTarget
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: legendabsolute60149.signalMetrics
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+      categories:
+        - name: TempHumiditySensor
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-02-07T10:13:49.942Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: b97c4087-cb5b-3e3f-9573-f3e70259ef5e
+  zigbee:
+    eui: A4C13899615A1F16
+    networkId: 7C0E
+    driverId: 3aa0ccf2-8ed9-48c1-8ec3-e6a28db0aae4
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_MANUFACTURER
+    fingerprintId: eWeLink/TH01
+  type: ZIGBEE
+  vid: 8a84583f-6014-3086-bb7e-df04964f6cc7
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.sensor.temphumidity
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 158
+      - 0
+      - 183
+    rotation:
+      - 0
+      - 270
+      - 0
+    visible: true
+    data:
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      lastHideTime: '0.0'
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 9d565ec4-4e3b-48ef-9ac1-1ff686ffe332
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: lg-cooktop-3zone
+  label: 전기레인지
+  deviceManufacturerCode: LG
+  manufacturerName: SmartThingsCommunity
+  deviceModel: WBEI3ANHL
+  presentationId: 7b23639b-7756-367e-969e-3f482eab7dc7
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: Cooktop
+          categoryType: manufacturer
+      optional: false
+    - id: zone1
+      label: zone1
+      capabilities:
+        - id: pizzatravel39897.cooktopZone
+          version: 1
+          optional: false
+      categories:
+        - name: Other
+          categoryType: manufacturer
+      optional: false
+    - id: zone2
+      label: zone2
+      capabilities:
+        - id: pizzatravel39897.cooktopZone
+          version: 1
+          optional: false
+      categories:
+        - name: Other
+          categoryType: manufacturer
+      optional: false
+    - id: zone3
+      label: zone3
+      capabilities:
+        - id: pizzatravel39897.cooktopZone
+          version: 1
+          optional: false
+      categories:
+        - name: Other
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-06-07T14:19:51.019Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: bcae1bfa-d684-34f8-8b9c-45e0891d8f49
+  lan:
+    networkId: >-
+      lgthinq-cooktop:b795ec724c8bc929e722728866bdb2dd5c115fce40791c80daf7e9870b6b5670
+    driverId: c9a599db-d5ec-4e74-8a9d-8ee31b13ac40
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: TYPED
+  type: LAN
+  vid: 7b23639b-7756-367e-969e-3f482eab7dc7
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.cooktop
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 10
+      - 0
+      - 161
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: true
+    data:
+      lastHideTime: '0.0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: both_2d_3d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 0d77c3ae-9e88-431f-ab34-6818ac19b7af
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: plug-binary
+  label: 주방등
+  deviceManufacturerCode: SONOFF
+  manufacturerName: SmartThingsCommunity
+  deviceModel: Basic Gen5
+  presentationId: 8f080659-d6e1-3178-bf5c-4254497e8de8
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: SmartPlug
+          categoryType: manufacturer
+        - name: SmartPlug
+          categoryType: user
+      optional: false
+      icon: oneui/custom_light_tube
+  createTime: '2026-03-15T15:28:58.516Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: ea9f1046-6c8b-3b75-8dd5-bf08be586a78
+  matter:
+    driverId: 7103039b-68d6-442c-afe5-e1bc955924a9
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    networkId: 0838509605767115-021F82A7CC5DF148
+    executingLocally: true
+    uniqueId: 54A1877628FDE4D8
+    vendorId: 4897
+    productId: 236
+    serialNumber: '25352900139730'
+    listeningType: ALWAYS
+    supportedNetworkInterfaces:
+      - WIFI
+    version:
+      hardware: 1
+      hardwareLabel: v1.0
+      software: 1
+      softwareLabel: v1.0
+    endpoints:
+      - endpointId: 0
+        deviceTypes:
+          - deviceTypeId: 22
+          - deviceTypeId: 18
+      - endpointId: 1
+        deviceTypes:
+          - deviceTypeId: 266
+    syncDrivers: true
+    fingerprintType: MATTER_GENERIC
+    fingerprintId: matter/on-off/plug
+  type: MATTER
+  vid: 8f080659-d6e1-3178-bf5c-4254497e8de8
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.smartplug
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 45
+      - 0
+      - 127
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: true
+    data:
+      lastHideTime: '0.0'
+      expressionType: only_2d
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 5df234bb-b1f5-4029-ba60-070b69d5c9ac
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: ikea-2-button-battery
+  label: 주방용 버튼
+  deviceManufacturerCode: IKEA of Sweden
+  manufacturerName: SmartThingsCommunity
+  deviceModel: BILRESA dual button
+  presentationId: cb006256-8e7f-3aa3-af74-dae2560214a7
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 4265342f-8d15-4ddc-8d99-94d225f6dba0
+  brandId: 964722e3-7d62-3e0b-a84b-31a134874f20
+  productId: 61713eaf-8421-4563-ab11-ccbeb42a513f
+  components:
+    - id: main
+      label: Button 1
+      capabilities:
+        - id: button
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: RemoteController
+          categoryType: manufacturer
+      optional: false
+    - id: button2
+      label: Button 2
+      capabilities:
+        - id: button
+          version: 1
+          optional: false
+      categories:
+        - name: RemoteController
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-03-29T14:35:18.927Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 0590ec14-c414-3f07-add6-79a95d09f2ee
+  matter:
+    driverId: 7103039b-68d6-442c-afe5-e1bc955924a9
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    networkId: 0838509605767115-5F203EBCC1256EB1
+    executingLocally: true
+    vendorId: 4476
+    productId: 32769
+    listeningType: SLEEPY
+    supportedNetworkInterfaces:
+      - THREAD
+    version:
+      hardware: 512
+      hardwareLabel: P2.0
+      software: 17301509
+      softwareLabel: 1.8.5
+    endpoints:
+      - endpointId: 0
+        deviceTypes:
+          - deviceTypeId: 18
+          - deviceTypeId: 17
+          - deviceTypeId: 22
+      - endpointId: 1
+        deviceTypes:
+          - deviceTypeId: 15
+      - endpointId: 2
+        deviceTypes:
+          - deviceTypeId: 15
+    syncDrivers: true
+    fingerprintType: MATTER_MANUFACTURER
+    fingerprintId: 4476/32769
+  type: MATTER
+  vid: cb006256-8e7f-3aa3-af74-dae2560214a7
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.remotecontroller
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 42
+      - 0
+      - 143
+    rotation:
+      - 0
+      - 90
+      - 0
+    visible: true
+    data:
+      lastHideTime: '0.0'
+      expressionType: only_2d
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 7f632af7-e127-452d-a733-6566d46f6a90
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: plug-power-energy-powerConsumption
+  label: 컴퓨터 플러그
+  deviceManufacturerCode: IKEA of Sweden
+  manufacturerName: SmartThingsCommunity
+  deviceModel: GRILLPLATS Plug
+  presentationId: 8e18bf57-509c-38b4-af7f-871dd01bbb01
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 31e9c5a2-56ac-445b-afb8-8b56cb101c35
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+        - id: powerMeter
+          version: 1
+          optional: false
+        - id: energyMeter
+          version: 1
+          optional: false
+        - id: powerConsumptionReport
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: SmartPlug
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-05-11T22:55:49.903Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 6d166eee-a675-3029-a122-db310d109376
+  matter:
+    driverId: 7103039b-68d6-442c-afe5-e1bc955924a9
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    networkId: 0838509605767115-39C5A3744FE41C01
+    executingLocally: true
+    uniqueId: E8B6694429396B12
+    vendorId: 4476
+    productId: 4096
+    listeningType: ALWAYS
+    supportedNetworkInterfaces:
+      - THREAD
+    version:
+      hardware: 512
+      hardwareLabel: P2.0
+      software: 17039366
+      softwareLabel: 1.4.6
+    endpoints:
+      - endpointId: 0
+        deviceTypes:
+          - deviceTypeId: 18
+          - deviceTypeId: 22
+      - endpointId: 1
+        deviceTypes:
+          - deviceTypeId: 266
+      - endpointId: 2
+        deviceTypes:
+          - deviceTypeId: 1296
+    syncDrivers: true
+    fingerprintType: MATTER_GENERIC
+    fingerprintId: matter/on-off/plug/electrical-sensor
+  type: MATTER
+  vid: 8e18bf57-509c-38b4-af7f-871dd01bbb01
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.smartplug
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 66
+      - 40
+      - 224
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: true
+    data:
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      lastHideTime: '0.0'
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: d0aee529-a80b-42e1-afdb-f9df7caeebaf
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: unified_weather
+  label: 통합 날씨 & 미세먼지 스테이션
+  deviceManufacturerCode: SmartHome
+  manufacturerName: SmartThingsCommunity
+  deviceModel: GiGA Genie Weather Bridge
+  presentationId: 99c372aa-dccb-3719-997b-446d1236011e
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 2b0fb849-fb18-43a0-b70e-5035fd935420
+  components:
+    - id: main
+      label: 현재 날씨
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: relativeHumidityMeasurement
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+    - id: realfeel
+      label: 체감온도
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+    - id: today_minmax
+      label: 오늘 최저/최고
+      capabilities:
+        - id: pizzatravel39897.dailyminmax
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+    - id: weather_state
+      label: 날씨 상태
+      capabilities:
+        - id: pizzatravel39897.weatherCondition
+          version: 1
+          optional: false
+      categories:
+        - name: WeatherStation
+          categoryType: manufacturer
+      optional: false
+    - id: minutecast
+      label: 단기 강수 예보
+      capabilities:
+        - id: pizzatravel39897.minutecastSummary
+          version: 1
+          optional: false
+      categories:
+        - name: WeatherStation
+          categoryType: manufacturer
+      optional: false
+    - id: precipitation
+      label: 강수확률
+      capabilities:
+        - id: pizzatravel39897.precipitationProbability
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+    - id: air_quality
+      label: 미세먼지
+      capabilities:
+        - id: pizzatravel39897.dustGrade
+          version: 1
+          optional: false
+        - id: dustSensor
+          version: 1
+          optional: false
+        - id: fineDustSensor
+          version: 1
+          optional: false
+      categories:
+        - name: AirQualityDetector
+          categoryType: manufacturer
+      optional: false
+    - id: forecast_1h
+      label: 1시간 뒤 예보
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.precipitationProbability
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+    - id: forecast_2h
+      label: 2시간 뒤 예보
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.precipitationProbability
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+    - id: forecast_3h
+      label: 3시간 뒤 예보
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.precipitationProbability
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+    - id: forecast_4h
+      label: 4시간 뒤 예보
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.precipitationProbability
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+    - id: forecast_5h
+      label: 5시간 뒤 예보
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.precipitationProbability
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+    - id: forecast_6h
+      label: 6시간 뒤 예보
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.precipitationProbability
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+    - id: forecast_7h
+      label: 7시간 뒤 예보
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.precipitationProbability
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+    - id: forecast_8h
+      label: 8시간 뒤 예보
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.precipitationProbability
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+    - id: forecast_9h
+      label: 9시간 뒤 예보
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.precipitationProbability
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+    - id: forecast_10h
+      label: 10시간 뒤 예보
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.precipitationProbability
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+    - id: forecast_11h
+      label: 11시간 뒤 예보
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.precipitationProbability
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+    - id: forecast_12h
+      label: 12시간 뒤 예보
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: pizzatravel39897.precipitationProbability
+          version: 1
+          optional: false
+      categories:
+        - name: Thermostat
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-06-04T05:08:36.623Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: dbfe85ee-506f-3de5-a8c3-bc190d360764
+  lan:
+    networkId: unified_weather_station
+    driverId: e6f9600f-9522-4397-94d3-a943e16d05fd
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: TYPED
+  type: LAN
+  vid: 99c372aa-dccb-3719-997b-446d1236011e
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.thermostat
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 0
+      - 0
+      - 0
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: false
+    data:
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      lastHideTime: '0.0'
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 294dcce1-07f1-4cf5-83b4-41af1f50bd9b
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: 현관 열림감지
+  label: 현관 열림감지
+  manufacturerName: SmartThingsCommunity
+  presentationId: 3cf8674f-8928-31d0-b5a2-c8659e897bfb
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 2b0fb849-fb18-43a0-b70e-5035fd935420
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: switch
+          version: 1
+          optional: false
+      categories:
+        - name: Switch
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-05-29T06:27:54.225Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 547a3a69-f76e-30fb-b0d4-4174cac5bc11
+  virtual:
+    name: 현관 열림감지
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    driverId: 572a2641-2af8-47e4-bfe5-ad83748fd7a1
+    executingLocally: true
+  type: VIRTUAL
+  vid: 3cf8674f-8928-31d0-b5a2-c8659e897bfb
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: oic.d.switch
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 0
+      - 0
+      - 0
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: false
+    data:
+      lastHideTime: '0.0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+      expressionType: only_2d
+  executionContext: LOCAL
+  relationships: []
+- deviceId: b703de67-5e5e-4040-b8f6-0b66b26913b6
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: zigbee-sonoff-button-1
+  label: 현관용 버튼
+  deviceManufacturerCode: HOBEIAN
+  manufacturerName: SmartThingsCommunity
+  deviceModel: ZG-101ZL
+  presentationId: d9b2945c-d203-3257-9cdb-4d7f6f403220
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 93e4a00b-0387-4df3-9389-12de6009373e
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: battery
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+      categories:
+        - name: RemoteController
+          categoryType: manufacturer
+      optional: false
+    - id: button1
+      label: button1
+      capabilities:
+        - id: button
+          version: 1
+          optional: false
+      categories:
+        - name: Other
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-02-14T18:05:09.123Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: 31e7bc92-39b8-3afe-9c07-cdbbc4aa2d61
+  zigbee:
+    eui: A4C1383E3CED931A
+    networkId: 85F1
+    driverId: 62bd9121-0ed3-4724-838f-cfa8a4d5a9a5
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_MANUFACTURER
+    fingerprintId: HOBEIAN/ZG-101ZL
+  type: ZIGBEE
+  vid: d9b2945c-d203-3257-9cdb-4d7f6f403220
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.remotecontroller
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 0
+      - 0
+      - 0
+    rotation:
+      - 0
+      - 180
+      - 0
+    visible: false
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []
+- deviceId: 71a7143e-666d-482d-9d70-7348966d7e4e
+  ownerId: 3246f087-13d9-a273-bfd8-9a2edd14afdf
+  name: humidity-temp-battery
+  label: 화장실 온습도센서
+  deviceManufacturerCode: eWeLink
+  manufacturerName: SmartThingsCommunity
+  deviceModel: TH01
+  presentationId: 8a84583f-6014-3086-bb7e-df04964f6cc7
+  locationId: b9d2eeb6-6f2d-4aee-be68-6ba5378702eb
+  roomId: 389834ac-fcf1-4a71-993d-fb8ec85404aa
+  brandId: 4de1d74c-5ddf-3fa2-9f70-8b2f028e7f67
+  productId: e300562f-efb0-43a0-947c-75bef095bb66
+  components:
+    - id: main
+      label: main
+      capabilities:
+        - id: temperatureMeasurement
+          version: 1
+          optional: false
+        - id: relativeHumidityMeasurement
+          version: 1
+          optional: false
+        - id: legendabsolute60149.tempCondition2
+          version: 1
+          optional: false
+        - id: legendabsolute60149.tempTarget
+          version: 1
+          optional: false
+        - id: legendabsolute60149.humidityCondition
+          version: 1
+          optional: false
+        - id: legendabsolute60149.humidityTarget
+          version: 1
+          optional: false
+        - id: battery
+          version: 1
+          optional: false
+        - id: legendabsolute60149.signalMetrics
+          version: 1
+          optional: false
+        - id: refresh
+          version: 1
+          optional: false
+        - id: firmwareUpdate
+          version: 1
+          optional: false
+      categories:
+        - name: TempHumiditySensor
+          categoryType: manufacturer
+      optional: false
+  createTime: '2026-02-07T10:15:25.967Z'
+  parentDeviceId: b6e082fa-4bf6-420d-bace-824965043ff9
+  profile:
+    id: b97c4087-cb5b-3e3f-9573-f3e70259ef5e
+  zigbee:
+    eui: A4C13874B8A52497
+    networkId: F7EC
+    driverId: 3aa0ccf2-8ed9-48c1-8ec3-e6a28db0aae4
+    executingLocally: true
+    hubId: b6e082fa-4bf6-420d-bace-824965043ff9
+    provisioningState: PROVISIONED
+    fingerprintType: ZIGBEE_MANUFACTURER
+    fingerprintId: eWeLink/TH01
+  type: ZIGBEE
+  vid: 8a84583f-6014-3086-bb7e-df04964f6cc7
+  mnmn: SmartThingsCommunity
+  ocfDeviceType: x.com.st.d.sensor.temphumidity
+  restrictionTier: 0
+  allowed: []
+  indoorMap:
+    coordinates:
+      - 121
+      - 0
+      - 163
+    rotation:
+      - 0
+      - 0
+      - 0
+    visible: true
+    data:
+      expressionType: only_2d
+      lastHideTime: '0'
+      lightingGroupId: 00000000-0000-0000-0000-000000000000
+  executionContext: LOCAL
+  relationships: []

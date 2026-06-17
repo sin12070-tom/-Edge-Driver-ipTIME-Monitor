@@ -1,0 +1,12 @@
+id: routerModel
+name: "Router Model"
+attributes:
+  model:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+      additionalProperties: false
+      required:
+        - value

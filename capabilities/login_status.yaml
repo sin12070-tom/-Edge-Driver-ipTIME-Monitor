@@ -1,0 +1,12 @@
+id: loginStatus
+name: "Login Status"
+attributes:
+  status:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+      additionalProperties: false
+      required:
+        - value

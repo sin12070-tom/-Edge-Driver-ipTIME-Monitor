@@ -1,0 +1,5 @@
+detailView:
+  - label: "Login Status"
+    displayType: state
+    state:
+      label: "{{status.value}}"

@@ -1,0 +1,5 @@
+detailView:
+  - label: "External IP Address"
+    displayType: state
+    state:
+      label: "{{ip.value}}"

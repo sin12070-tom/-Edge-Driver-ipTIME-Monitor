@@ -1,0 +1,12 @@
+id: connectedDevices
+name: "Connected Devices"
+attributes:
+  devices:
+    schema:
+      type: object
+      properties:
+        value:
+          type: string
+      additionalProperties: false
+      required:
+        - value

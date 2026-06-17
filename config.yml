@@ -1,0 +1,68 @@
+name: ipTIME Monitor
+packageKey: iptime-monitor-v11
+version: 1.0
+compatibility: ">=0.32.0"
+description: "ipTIME 공유기 실시간 트래픽 및 연결 기기 모니터링"
+manufacturerName: "Custom"
+platforms:
+  - name: SmartThings
+
+permissions:
+  lan: {}
+  discovery: {}
+
+preferences:
+  - name: routerModel
+    title: "Router Model"
+    description: "e.g., AX2004M, AX8004BCM"
+    required: false
+    preferenceType: string
+    definition:
+      type: string
+      default: "AX2004M"
+      minLength: 0
+      maxLength: 32
+
+  - name: routerIp
+    title: "LAN IP"
+    description: "Default: 192.168.0.1"
+    required: true
+    preferenceType: string
+    definition:
+      type: string
+      default: "192.168.0.1"
+      minLength: 7
+      maxLength: 15
+
+  - name: adminUser
+    title: "Admin ID"
+    description: "ipTIME Login Username"
+    required: false
+    preferenceType: string
+    definition:
+      type: string
+      default: "admin"
+      minLength: 1
+      maxLength: 32
+
+  - name: adminPass
+    title: "Admin PW"
+    description: "ipTIME Login Password"
+    required: false
+    preferenceType: string
+    definition:
+      type: string
+      default: "admin"
+      minLength: 0
+      maxLength: 64
+
+  - name: pollInterval
+    title: "Polling Period(Sec)"
+    description: "Data polling interval. Range: 10 - 600 seconds."
+    required: false
+    preferenceType: integer
+    definition:
+      type: integer
+      default: 60
+      minimum: 10
+      maximum: 600

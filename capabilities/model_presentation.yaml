@@ -1,0 +1,5 @@
+detailView:
+  - label: "공유기 모델명"
+    displayType: state
+    state:
+      label: "{{model.value}}"

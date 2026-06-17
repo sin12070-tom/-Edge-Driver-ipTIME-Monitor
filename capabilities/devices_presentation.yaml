@@ -1,0 +1,5 @@
+detailView:
+  - label: "연결된 기기 수"
+    displayType: state
+    state:
+      label: "{{devices.value}}"
