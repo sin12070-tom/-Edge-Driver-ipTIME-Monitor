@@ -314,18 +314,11 @@ local function poll_handler(driver, device)
     end
   end
 
-  -- 연결 기기 수 조회
-  local conn, conn_err = api_call(device, "conn/info")
+  -- 연결 기기 수 조회 (network/interface/lan/stations)
+  local stations, conn_err = api_call(device, "network/interface/lan/stations")
   local dev_count = 0
-  if conn then
-    if conn.connections then
-      local router_ip = pref(device, "routerIp", DEFAULT_HOST)
-      for _, c in ipairs(conn.connections) do
-        if c.ip and c.ip:sub(1, 8) == "192.168." and c.ip ~= router_ip then
-          dev_count = dev_count + 1
-        end
-      end
-    end
+  if stations then
+    dev_count = #stations
   end
 
   -- WAN 인터넷 상태 및 외부 IP 조회
